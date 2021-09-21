@@ -51,6 +51,7 @@ p {
   line-height: 1.2;
   margin-bottom: 17px;
   max-width: 100%;
+  text-transform: uppercase;
 }
 .main__info .main__title:hover {
   background: -webkit-gradient(linear, right top, left top, from(#00bfff));
