@@ -466,6 +466,7 @@ p {
   line-height: 1.2;
   color: #292929;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .command__full {
