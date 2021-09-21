@@ -1,0 +1,67 @@
+/*Command*/
+
+.command__hero {
+  margin-bottom: 53px;
+
+  .command__text {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #292929;
+    text-align: center;
+  }
+}
+
+.command__full {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+
+  &:last-child {
+    padding-right: 0;
+  }
+
+  .command___list {
+    padding-right: 20px;
+
+    .command__profession {
+      display: flex;
+
+      .profession__list {
+        text-align: center;
+
+        .profession__title {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 1.2;
+          color: #292929;
+        }
+
+        .profession__subtitle {
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 1.2;
+        }
+      }
+    }
+  }
+}
+
+.command__name {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #292929;
+  text-align: center;
+
+  &::after {
+    content: url("../img/icon/Polygon_top.png");
+    margin-left: 4px;
+    width: 9px;
+    height: 9px;
+  }
+
+  &--after::after {
+    content: url(../img/icon/Polygon_bottom.png);
+  }
+}

@@ -1,0 +1,42 @@
+/*link*/
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+p {
+    margin-top: 0;
+  }
+
+ @import "./block/main";
+ @import "./block/head";
+ @import "./block/btn";
+ @import "./block/offers";
+ @import "./block/model";
+ @import "./block/command";
+ @import "./block/choice";
+
+
+

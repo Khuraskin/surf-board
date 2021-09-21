@@ -1,0 +1,29 @@
+/*btn*/
+
+.button {
+  display: flex;
+  margin-bottom: 127px;
+
+  .btn {
+    border: 1px solid transparent;
+    padding: 18px 40px;
+    border-radius: 35px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
+
+.btn__theme--yellow {
+  background-color: #fedb3f;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.1;
+
+  &:hover {
+    background-color: #ffffff;
+    color: #fedb3f;
+  }
+}

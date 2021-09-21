@@ -1,0 +1,41 @@
+/*offers*/
+
+.offers {
+  background: #f8faf9;
+  margin-bottom: 67px;
+}
+
+.offers__hero {
+  display: flex;
+  padding: 52px 0 104px 93px;
+  position: relative;
+}
+
+.offers__pic {
+  padding-right: 81px;
+  padding-top: 57px;
+  width: 396px;
+
+  .offers__fon {
+    height: 378px;
+    background: url("../img/offers/vector_surf.png") no-repeat;
+
+    .offers__img {
+        position: absolute;
+        top: 54px;
+      }
+  }
+  
+}
+
+.offers__info {
+  max-width: 368px;
+}
+
+
+.offers__text--name {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ffffff;
+}

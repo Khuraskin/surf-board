@@ -1,0 +1,27 @@
+/*choice*/
+
+.choice {
+    background: url("../img/choice/Main_choice.jpg") center no-repeat;
+    height: 652px;
+}
+
+.choice__text {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+
+
+.cochice__select {    
+    display: flex;
+    flex-direction: column;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    writing-mode: tb-rl;
+    width: 466px;
+    height: 58px;
+}
