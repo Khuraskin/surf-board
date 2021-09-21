@@ -3,188 +3,190 @@
 $color_text__header: #ffffff;
 
 .wrapper {
-    min-width: 1100px;
+  min-width: 1100px;
 
-    .wpapper__fon {
-        background: url("../img/head/arnaud-mesureur.jpg") center top no-repeat;
-        background-size: cover;
-        margin-bottom: 103px;
-        
-      
-        .head {
-          padding: 24px 0 70px 0;
-      
-          .head__wrapp {
-            margin: 0 auto;
-          }
-        }
-      }
-      
-      .container {
-        max-width: 940px;
+  .wpapper__fon {
+    background: url("../img/head/arnaud-mesureur.jpg") center top no-repeat;
+    background-size: cover;
+    margin-bottom: 103px;
+
+    .head {
+      padding: 24px 0 70px 0;
+
+      .head__wrapp {
         margin: 0 auto;
-        width: 100;
-      
-        .header {
-          position: relative;
-      
-          .header__master {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 161px;
-            width: 930px;
-      
-            .logo__pic {
-              width: 55px;
-              height: 39px;
-            }
-          }
-        }
       }
-      
-      .menu__list {
-        display: flex;
-      
-        .menu__item {
-          margin-right: 22px;
-      
-          &:last-child {
-            margin-right: 0;
-          }
-        }
-      
-        .menu__link {
-          text-decoration: none;
-          font-size: 18px;
-          font-weight: 700;
-          line-height: 1.2;
-          color: $color_text__header;
-      
-          &:hover {
-            background: linear-gradient(to left, #00bfff);
-            background-position: bottom;
-            background-size: 100% 2px;
-            background-repeat: repeat-x;
-          }
-        }
-      }
-      
-      .contacts {
-        display: flex;
-      
-        .contacts__pic {
-          margin: auto;
-          width: 12.8px;
-          height: 13.7px;
-        }
-        .contacts__tel {
-          font-size: 22px;
-          font-weight: 800;
-          line-height: 1.2;
-          text-decoration: none;
-          color: $color_text__header;
-      
-          &:hover {
-            background: linear-gradient(to left, #00bfff);
-            background-position: bottom;
-            background-size: 100% 2px;
-            background-repeat: repeat-x;
-          }
-        }
-      }
-      
-      .hero {
-        width: 583px;
-        display: flex;
-        flex-direction: column;
-      
-        .title {
-          font-size: 48px;
-          font-weight: 700;
-          line-height: 1.2;
-          color: $color_text__header;
-          max-width: 46%;
-          text-transform: uppercase;
-          margin-bottom: 51px;
-      
-          &:hover {
-            text-decoration: underline #00bfff;
-          }
-        }
-      
-        .subtitle {
-          font-size: 21px;
-          font-style: 400;
-          line-height: 1.2;
-          color: $color_text__header;
-          text-transform: uppercase;
-          margin-bottom: 102px;
-      
-          &:hover {
-            text-decoration: underline #00bfff;
-          }
-        }
-      }
-      
-      .offer {
-        display: flex;
-      
-        .offer__title {
-          width: 142px;
-          display: flex;
-          margin-right: 33px;
-      
-          .offer__pic {
-            width: 34px;
-            height: 34px;
-          }
-      
-          .offer__link {
-            display: inline;
-            text-decoration: none;
-            font-size: 16px;
-            font-weight: 700;
-            line-height: 1.1;
-            color: $color_text__header;
-            padding-left: 14px;
-      
-            &:hover {
-              text-decoration: underline #8a2be2;
-            }
-          }
-        }
-      }
-      
-      .sidebar {
-        position: relative;
-      
-        .sidebar__menu {
-          position: absolute;
-          left: 990px;
-          bottom: 327px;
-      
-          .sidebar__list {
-            text-align: center;
-          }
-      
-          .sidebar__list--active {
-            background: url("../../img/icon/Ellipse_hover.png") center center
-              no-repeat;
-            width: 18px;
-          }
-          .sidebar__link {
-            border-radius: 50px;
-            color: $color_text__header;
-            width: 18px;
-            height: 184px;
-            text-decoration: none;
-          }
-        }
-        .sidebar__pic {
-          width: 9px;
-        }
-      }
-      
-}
+    }
+  }
 
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+    width: 100;
+
+    .header {
+      position: relative;
+
+      .header__master {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 161px;
+        width: 930px;
+
+        .logo__pic {
+          width: 55px;
+          height: 39px;
+        }
+      }
+    }
+  }
+
+  .menu__list {
+    display: flex;
+
+    .menu__item {
+      margin-right: 22px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .menu__link {
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: $color_text__header;
+
+      &:hover {
+        background: linear-gradient(to left, #00bfff);
+        background-position: bottom;
+        background-size: 100% 2px;
+        background-repeat: repeat-x;
+      }
+    }
+  }
+
+  .contacts {
+    display: flex;
+
+    .contacts__pic {
+      margin: auto;
+      width: 12.8px;
+      height: 13.7px;
+    }
+    .contacts__tel {
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1.2;
+      text-decoration: none;
+      color: $color_text__header;
+
+      &:hover {
+        background: linear-gradient(to left, #00bfff);
+        background-position: bottom;
+        background-size: 100% 2px;
+        background-repeat: repeat-x;
+      }
+    }
+  }
+
+  .hero {
+    width: 583px;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: $color_text__header;
+      max-width: 46%;
+      text-transform: uppercase;
+      margin-bottom: 51px;
+
+      &:hover {
+        text-decoration: underline #00bfff;
+      }
+    }
+
+    .subtitle {
+      font-size: 21px;
+      font-style: 400;
+      line-height: 1.2;
+      color: $color_text__header;
+      text-transform: uppercase;
+      margin-bottom: 102px;
+
+      &:hover {
+        text-decoration: underline #00bfff;
+      }
+    }
+
+    .button {
+      display: flex;
+      margin-bottom: 127px;
+    }
+  }
+
+  .offer {
+    display: flex;
+
+    .offer__title {
+      width: 142px;
+      display: flex;
+      margin-right: 33px;
+
+      .offer__pic {
+        width: 34px;
+        height: 34px;
+      }
+
+      .offer__link {
+        display: inline;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.1;
+        color: $color_text__header;
+        padding-left: 14px;
+
+        &:hover {
+          text-decoration: underline #8a2be2;
+        }
+      }
+    }
+  }
+
+  .sidebar {
+    position: relative;
+
+    .sidebar__menu {
+      position: absolute;
+      left: 990px;
+      bottom: 327px;
+
+      .sidebar__list {
+        text-align: center;
+      }
+
+      .sidebar__list--active {
+        background: url("../../img/icon/Ellipse_hover.png") center center
+          no-repeat;
+        width: 18px;
+      }
+      .sidebar__link {
+        border-radius: 50px;
+        color: $color_text__header;
+        width: 18px;
+        height: 184px;
+        text-decoration: none;
+      }
+    }
+    .sidebar__pic {
+      width: 9px;
+    }
+  }
+}
