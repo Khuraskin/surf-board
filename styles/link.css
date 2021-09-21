@@ -335,7 +335,8 @@ p {
   display: flex;
   margin-bottom: 127px;
 }
-.button .btn {
+
+.btn {
   border: 1px solid transparent;
   padding: 18px 40px;
   border-radius: 35px;
