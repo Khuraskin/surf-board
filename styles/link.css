@@ -146,29 +146,29 @@ p {
 }
 
 /*head*/
-.wpapper__fon {
+.wrapper {
+  min-width: 1100px;
+}
+.wrapper .wpapper__fon {
   background: url("../img/head/arnaud-mesureur.jpg") center top no-repeat;
   background-size: cover;
   margin-bottom: 103px;
-  min-width: 1100px;
 }
-.wpapper__fon .head {
+.wrapper .wpapper__fon .head {
   padding: 24px 0 70px 0;
 }
-.wpapper__fon .head .head__wrapp {
-  width: 1100px;
+.wrapper .wpapper__fon .head .head__wrapp {
   margin: 0 auto;
 }
-
-.container {
+.wrapper .container {
   max-width: 940px;
   margin: 0 auto;
   width: 100;
 }
-.container .header {
+.wrapper .container .header {
   position: relative;
 }
-.container .header .header__master {
+.wrapper .container .header .header__master {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -181,63 +181,60 @@ p {
   margin-bottom: 161px;
   width: 930px;
 }
-.container .header .header__master .logo__pic {
+.wrapper .container .header .header__master .logo__pic {
   width: 55px;
   height: 39px;
 }
-
-.menu__list {
+.wrapper .menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.menu__list .menu__item {
+.wrapper .menu__list .menu__item {
   margin-right: 22px;
 }
-.menu__list .menu__item:last-child {
+.wrapper .menu__list .menu__item:last-child {
   margin-right: 0;
 }
-.menu__list .menu__link {
+.wrapper .menu__list .menu__link {
   text-decoration: none;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.2;
   color: #ffffff;
 }
-.menu__list .menu__link:hover {
+.wrapper .menu__list .menu__link:hover {
   background: -webkit-gradient(linear, right top, left top, from(#00bfff));
   background: linear-gradient(to left, #00bfff);
   background-position: bottom;
   background-size: 100% 2px;
   background-repeat: repeat-x;
 }
-
-.contacts {
+.wrapper .contacts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.contacts .contacts__pic {
+.wrapper .contacts .contacts__pic {
   margin: auto;
   width: 12.8px;
   height: 13.7px;
 }
-.contacts .contacts__tel {
+.wrapper .contacts .contacts__tel {
   font-size: 22px;
   font-weight: 800;
   line-height: 1.2;
   text-decoration: none;
   color: #ffffff;
 }
-.contacts .contacts__tel:hover {
+.wrapper .contacts .contacts__tel:hover {
   background: -webkit-gradient(linear, right top, left top, from(#00bfff));
   background: linear-gradient(to left, #00bfff);
   background-position: bottom;
   background-size: 100% 2px;
   background-repeat: repeat-x;
 }
-
-.hero {
+.wrapper .hero {
   width: 583px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -247,7 +244,7 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.hero .title {
+.wrapper .hero .title {
   font-size: 48px;
   font-weight: 700;
   line-height: 1.2;
@@ -256,11 +253,11 @@ p {
   text-transform: uppercase;
   margin-bottom: 51px;
 }
-.hero .title:hover {
+.wrapper .hero .title:hover {
   -webkit-text-decoration: underline #00bfff;
           text-decoration: underline #00bfff;
 }
-.hero .subtitle {
+.wrapper .hero .subtitle {
   font-size: 21px;
   font-style: 400;
   line-height: 1.2;
@@ -268,28 +265,27 @@ p {
   text-transform: uppercase;
   margin-bottom: 102px;
 }
-.hero .subtitle:hover {
+.wrapper .hero .subtitle:hover {
   -webkit-text-decoration: underline #00bfff;
           text-decoration: underline #00bfff;
 }
-
-.offer {
+.wrapper .offer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.offer .offer__title {
+.wrapper .offer .offer__title {
   width: 142px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-right: 33px;
 }
-.offer .offer__title .offer__pic {
+.wrapper .offer .offer__title .offer__pic {
   width: 34px;
   height: 34px;
 }
-.offer .offer__title .offer__link {
+.wrapper .offer .offer__title .offer__link {
   display: inline;
   text-decoration: none;
   font-size: 16px;
@@ -298,34 +294,33 @@ p {
   color: #ffffff;
   padding-left: 14px;
 }
-.offer .offer__title .offer__link:hover {
+.wrapper .offer .offer__title .offer__link:hover {
   -webkit-text-decoration: underline #8a2be2;
           text-decoration: underline #8a2be2;
 }
-
-.sidebar {
+.wrapper .sidebar {
   position: relative;
 }
-.sidebar .sidebar__menu {
+.wrapper .sidebar .sidebar__menu {
   position: absolute;
-  left: 1000px;
+  left: 990px;
   bottom: 327px;
 }
-.sidebar .sidebar__menu .sidebar__list {
+.wrapper .sidebar .sidebar__menu .sidebar__list {
   text-align: center;
 }
-.sidebar .sidebar__menu .sidebar__list--active {
+.wrapper .sidebar .sidebar__menu .sidebar__list--active {
   background: url("../../img/icon/Ellipse_hover.png") center center no-repeat;
   width: 18px;
 }
-.sidebar .sidebar__menu .sidebar__link {
+.wrapper .sidebar .sidebar__menu .sidebar__link {
   border-radius: 50px;
   color: #ffffff;
   width: 18px;
   height: 184px;
   text-decoration: none;
 }
-.sidebar .sidebar__pic {
+.wrapper .sidebar .sidebar__pic {
   width: 9px;
 }
 
