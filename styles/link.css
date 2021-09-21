@@ -269,6 +269,12 @@ p {
   -webkit-text-decoration: underline #00bfff;
           text-decoration: underline #00bfff;
 }
+.wrapper .hero .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 127px;
+}
 .wrapper .offer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -325,13 +331,6 @@ p {
 }
 
 /*btn*/
-.button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 127px;
-}
-
 .btn {
   border: 1px solid transparent;
   padding: 18px 40px;
