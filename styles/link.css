@@ -316,7 +316,7 @@ p {
   text-align: center;
 }
 .wrapper .sidebar .sidebar__menu .sidebar__list--active {
-  background: url("../../img/icon/Ellipse_hover.png") center center no-repeat;
+  background: url("../img/icon/Ellipse_hover.png") center center no-repeat;
   width: 18px;
 }
 .wrapper .sidebar .sidebar__menu .sidebar__link {
