@@ -360,12 +360,26 @@ p {
   margin-bottom: 67px;
 }
 
+.offers::after {
+  content: url("../../img/icon/Vector_1.png");
+}
+
 .offers__hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 52px 0 104px 93px;
   position: relative;
+}
+.offers__hero .offers__arrow--left {
+  position: absolute;
+  bottom: 300px;
+  right: 959px;
+}
+.offers__hero .offers__arrow--right {
+  position: absolute;
+  left: 1006px;
+  bottom: 300px;
 }
 
 .offers__pic {
