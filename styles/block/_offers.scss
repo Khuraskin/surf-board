@@ -3,12 +3,7 @@
 .offers {
   background: #f8faf9;
   margin-bottom: 67px;
-  
-  
-}
-
-.offers::after {
-        content: url("../../img/icon/Vector_1.png");    
+    
 }
 
 .offers__hero {
@@ -30,6 +25,17 @@
 }
 
 }
+
+.offers__select {    
+    background-color: #3A587E;
+    width: 91px;
+    height: 91px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
 
 .offers__pic {
   padding-right: 81px;
