@@ -672,7 +672,7 @@ p {
 
 /*form*/
 .form__fon {
-  background: url("../../img/form/cta.jpg") no-repeat;
+  background: url("../img/form/cta.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   height: 952px;
