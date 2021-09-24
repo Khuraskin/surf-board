@@ -1,0 +1,45 @@
+
+.radio {
+    display: none;
+
+    &:checked ~ .radio__view {
+        &::before {
+            display: block;
+        }
+    }
+}
+
+.radio__view {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background: #ffffff;
+    border-radius: 50%;
+    
+
+    &::before {
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        position: absolute;
+        display: none;
+        transform: translate(-50% -50%);
+        content: ("");
+        top: 25%;
+        right: 25%;
+        background-color: #FEDB3F;
+    }
+}
+
+.radio__view--no {
+    border-radius: 0;
+
+    &::before {
+        background: url("../../img/icon/check.png") center center no-repeat;
+        width: 10px;
+        height: 9px;
+    }
+}
+
+
+

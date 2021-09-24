@@ -1,0 +1,31 @@
+/*sidebar*/
+
+  .sidebar {
+    
+
+    .sidebar__menu {
+      position: fixed;
+      top: 288px;
+      right: 214px;
+      
+      .sidebar__list {
+        text-align: center;
+      }
+
+      .sidebar__list--active {
+        background: url("../img/icon/Ellipse_hover.png") center center
+          no-repeat;
+        width: 18px;
+      }
+      .sidebar__link {
+        border-radius: 50px;
+        color: $color_text__header;
+        width: 18px;
+        height: 184px;
+        text-decoration: none;
+      }
+    }
+    .sidebar__pic {
+      width: 9px;
+    }
+  }

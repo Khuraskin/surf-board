@@ -32,8 +32,7 @@ $color_text__header: #ffffff;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 161px;
-        width: 930px;
-
+        
         .logo__pic {
           width: 55px;
           height: 39px;
@@ -99,19 +98,19 @@ $color_text__header: #ffffff;
     flex-direction: column;
 
     .title {
-      font-size: 48px;
-      font-weight: 700;
-      line-height: 1.2;
-      color: $color_text__header;
-      max-width: 46%;
-      text-transform: uppercase;
-      margin-bottom: 51px;
+        max-width: 46%;
 
-      &:hover {
-        text-decoration: underline #00bfff;
-      }
+        .title__text {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 1.2;
+            color: $color_text__header;
+            text-transform: uppercase;
+            margin-bottom: 51px;     
+          }
+      
     }
-
+    
     .subtitle {
       font-size: 21px;
       font-style: 400;
@@ -119,10 +118,7 @@ $color_text__header: #ffffff;
       color: $color_text__header;
       margin-bottom: 102px;
 
-      &:hover {
-        text-decoration: underline #00bfff;
-      }
-    }
+     }
 
     .button {
       display: flex;
@@ -130,13 +126,17 @@ $color_text__header: #ffffff;
     }
   }
 
-  .offer {
+  .offer__main {
     display: flex;
 
     .offer__title {
       width: 142px;
       display: flex;
       margin-right: 33px;
+
+      &:last-child {
+          margin-right: 0;
+      }
 
       .offer__pic {
         width: 34px;
@@ -152,40 +152,9 @@ $color_text__header: #ffffff;
         color: $color_text__header;
         padding-left: 14px;
 
-        &:hover {
-          text-decoration: underline #8a2be2;
-        }
+        
       }
     }
   }
 
-  .sidebar {
-    position: relative;
-
-    .sidebar__menu {
-      position: absolute;
-      left: 990px;
-      bottom: 327px;
-
-      .sidebar__list {
-        text-align: center;
-      }
-
-      .sidebar__list--active {
-        background: url("../img/icon/Ellipse_hover.png") center center
-          no-repeat;
-        width: 18px;
-      }
-      .sidebar__link {
-        border-radius: 50px;
-        color: $color_text__header;
-        width: 18px;
-        height: 184px;
-        text-decoration: none;
-      }
-    }
-    .sidebar__pic {
-      width: 9px;
-    }
-  }
 }

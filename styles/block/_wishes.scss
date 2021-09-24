@@ -1,0 +1,80 @@
+
+
+.wishes__comment {
+    margin-bottom: 47px;
+
+    .wishes__title {
+        margin-bottom: 38px;
+    }
+}
+
+
+.wishes__input {
+    width: 450px;
+    height: 152px;
+    resize: none;
+}
+
+.wishes__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+
+.payments__main{
+    display: flex;
+    margin-bottom: 19px;
+}
+.payments {
+    display: flex;
+    align-items: center;
+    padding-right: 9px;
+    cursor: pointer;
+
+    &:last-child {
+        padding-right: 0;
+    }
+
+    .payments__cash{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.2;
+        color: #fff;
+        padding-left: 10px;        
+    }
+
+    .payments__card{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.2;
+        color: #fff;
+        padding-left: 10px;
+    }
+}
+
+
+.call {
+    display: flex;
+    align-items: center;
+
+    .call__text {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.2;
+        color: #FFFFFF;
+        padding-left: 12px;
+    }
+}
+
+.buttons {
+    display: flex;
+
+    .btn__theme--transparent {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.2;
+        color: #fff;
+    }
+}
+
