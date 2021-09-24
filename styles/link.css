@@ -674,7 +674,7 @@ p {
 .form__fon {
   background: url("../img/form/cta.jpg") no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 25% 25%;
   height: 952px;
 }
 
@@ -861,8 +861,8 @@ p {
   border-radius: 50%;
   position: absolute;
   display: none;
-  -webkit-transform: translate(-50% -50%);
-          transform: translate(-50% -50%);
+  -webkit-transform: translate(-25% -25%);
+          transform: translate(-25% -25%);
   content: "";
   top: 25%;
   right: 25%;
@@ -873,7 +873,7 @@ p {
   border-radius: 0;
 }
 .radio__view--no::before {
-  background: url("../../img/icon/check.png") center center no-repeat;
+  background: url("../img/icon/check.png") center center no-repeat;
   width: 10px;
   height: 9px;
 }
