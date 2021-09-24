@@ -30,13 +30,19 @@ p {
     margin-top: 0;
   }
 
- @import "./block/main";
  @import "./block/head";
  @import "./block/btn";
+ @import "./block/sidebar";
+ @import "./block/features";
+ @import "./block/main";
  @import "./block/offers";
  @import "./block/model";
  @import "./block/command";
  @import "./block/choice";
-
-
-
+ @import "./block/reviews";
+ @import "./block/comment";
+ @import "./block/clients";
+ @import "./block/work";
+ @import "./block/form";
+ @import "./block/wishes";
+ @import "./block/radio_button";
