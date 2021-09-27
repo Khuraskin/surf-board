@@ -5,7 +5,7 @@
   flex-direction: column;
 
   .model__title--name {
-    font-size: 36px;
+    font-size: 2.2px;
     font-weight: 700;
     line-height: 1.2;
     color: #292929;
@@ -13,26 +13,27 @@
   }
 
   .model__subtitle {
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 400;
     line-height: 1.2;
     color: #666666;
-    margin-bottom: 24px;
+    margin-bottom: 1.4rem
+    ;
   }
 }
 
 .model__option {
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 
   .model__long {
     display: flex;
 
     .model__text {
-      font-size: 18px;
+      font-size: 1.1rem;
       font-weight: 400;
       line-height: 1.2;
       color: #666666;
-      padding-right: 55px;
+      padding-right: 3.4rem;
     }
   }
 }
@@ -42,11 +43,11 @@
 }
 
 .size__text {
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 700;
   line-height: 1.2;
   color: #000000;
-  padding-right: 52px;
+  padding-right: 3.2rem;
 }
 
 .order {
