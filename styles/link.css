@@ -1,5 +1,6 @@
 /*link*/
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -21,7 +22,12 @@ ul li {
   list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   font-weight: normal;
 }
@@ -38,6 +44,7 @@ p {
   background: url("../img/head/arnaud-mesureur.jpg") center top no-repeat;
   background-size: cover;
   margin-bottom: 103px;
+  min-height: 100vh;
 }
 .wrapper .wpapper__fon .head {
   padding: 24px 0 70px 0;
@@ -206,32 +213,43 @@ p {
 }
 
 /*sidebar*/
+.sidebar {
+  min-height: 100vh;
+}
 .sidebar .sidebar__menu {
   position: fixed;
   top: 288px;
   right: 214px;
 }
 .sidebar .sidebar__menu .sidebar__list {
-  text-align: center;
+  padding: 7px;
 }
-.sidebar .sidebar__menu .sidebar__list--active {
-  background: url("../img/icon/Ellipse_hover.png") center center no-repeat;
-  width: 18px;
+.sidebar .sidebar__menu .sidebar__list .sidebar__links--actives {
+  border-color: #ffffff;
 }
 .sidebar .sidebar__menu .sidebar__link {
-  border-radius: 50px;
-  color: #ffffff;
   width: 18px;
-  height: 184px;
-  text-decoration: none;
+  height: 19px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  position: relative;
+  display: block;
 }
-.sidebar .sidebar__pic {
+.sidebar .sidebar__menu .sidebar__link::before {
+  content: "";
   width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  top: 25%;
+  left: 25%;
+  position: absolute;
 }
 
 /*features*/
 .features {
   margin-bottom: 49px;
+  min-height: 100vh;
 }
 
 .features__info {
@@ -266,6 +284,10 @@ p {
 }
 
 /*main*/
+.main {
+  min-height: 100vh;
+}
+
 .main__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -454,6 +476,10 @@ p {
 }
 
 /*Command*/
+.command {
+  min-height: 100vh;
+}
+
 .command__hero {
   margin-bottom: 53px;
 }
@@ -523,13 +549,14 @@ p {
   background: url("../img/choice/Main_choice.jpg") center no-repeat;
   height: 652px;
   margin-bottom: 58px;
+  min-height: 100vh;
 }
 
 .choice__text {
   font-size: 48px;
   font-weight: 700;
   line-height: 1.2;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -553,6 +580,7 @@ p {
 /*review*/
 .reviews {
   margin-bottom: 32px;
+  min-height: 100vh;
 }
 
 .reviews__title {
@@ -567,17 +595,16 @@ p {
 /*comment*/
 .comment {
   margin-bottom: 15px;
+  min-height: 100vh;
 }
 .comment .container__comment--gray {
-  background-color: #F8FAF9;
+  background-color: #f8faf9;
 }
 .comment .container__comment--gray .comment__main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-.comment .container__comment--gray .comment__main .comment__img {
-  padding: 42px 0 0 42px;
+  padding: 42px;
 }
 .comment .container__comment--gray .comment__main .comment__title {
   padding: 38px;
@@ -589,10 +616,7 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.comment .container__comment--gray .comment__main .comment__title .comment__hero {
-  padding-top: 70px;
-}
-.comment .container__comment--gray .comment__main .comment__title .comment__hero .comment__text {
+.comment .container__comment--gray .comment__main .comment__title .comment__text {
   font-size: 27px;
   font-weight: 700;
   line-height: 1.2;
@@ -619,6 +643,7 @@ p {
 /*clients*/
 .clients {
   margin-bottom: 63px;
+  min-height: 100vh;
 }
 
 .clients__list {
@@ -633,7 +658,7 @@ p {
   padding-right: 6px;
 }
 .clients__list .clients__info:last-child {
-  padding-left: 0;
+  padding-right: 0;
 }
 .clients__list .clients__info .clients__pic {
   width: 74px;
@@ -647,7 +672,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #F8FAF9;
+  background-color: #f8faf9;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -655,6 +680,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  min-height: 100vh;
 }
 .work .work__title {
   padding-top: 62px;
@@ -671,6 +697,10 @@ p {
 }
 
 /*form*/
+.form {
+  min-height: 100vh;
+}
+
 .form__fon {
   background: url("../img/form/cta.jpg") no-repeat;
   background-size: cover;
@@ -691,12 +721,12 @@ p {
   color: #ffffff;
 }
 
-.form__contacts {
+.form__main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.form__contacts .form__main {
+.form__main .form__contacts {
   margin-right: 27px;
 }
 
@@ -758,24 +788,17 @@ p {
   color: #fff;
 }
 
-.wishes__comment {
+.form__wishes {
   margin-bottom: 47px;
 }
-.wishes__comment .wishes__title {
+.form__wishes .form__info--title {
   margin-bottom: 38px;
 }
 
-.wishes__input {
+.input__text--wishes {
   width: 450px;
   height: 152px;
   resize: none;
-}
-
-.wishes__text {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.2;
-  color: #FFFFFF;
 }
 
 .payments__main {
@@ -820,12 +843,13 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 47px;
 }
 .call .call__text {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.2;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-left: 12px;
 }
 
@@ -841,6 +865,7 @@ p {
   color: #fff;
 }
 
+/*radio_buttoms*/
 .radio {
   display: none;
 }
@@ -866,14 +891,14 @@ p {
   content: "";
   top: 25%;
   right: 25%;
-  background-color: #FEDB3F;
+  background-color: #fedb3f;
 }
 
 .radio__view--no {
   border-radius: 0;
 }
 .radio__view--no::before {
-  background: url("../img/icon/check.png") center center no-repeat;
+  background: url("../../img/icon/check.png") center center no-repeat;
   width: 10px;
   height: 9px;
 }
