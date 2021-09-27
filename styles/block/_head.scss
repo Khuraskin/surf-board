@@ -3,7 +3,8 @@
 $color_text__header: #ffffff;
 
 .wrapper {
-  min-width: 68.7rem;
+  width: 100%;
+  min-height: 100%;
 
   .wpapper__fon {
     background: url("../img/head/arnaud-mesureur.jpg") center top no-repeat;
@@ -21,7 +22,7 @@ $color_text__header: #ffffff;
   }
 
   .container {
-    max-width: 58.7rem;
+    max-width: 940px;
     margin: 0 auto;
     width: 100%;
 
