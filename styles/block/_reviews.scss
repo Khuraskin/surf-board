@@ -1,11 +1,12 @@
 /*review*/
 
 .reviews {
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
+    min-height: 100vh;    
 }
 
 .reviews__title {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 1.2;
     color: #292929;
