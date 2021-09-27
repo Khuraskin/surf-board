@@ -1,31 +1,38 @@
 /*sidebar*/
 
-  .sidebar {
-    
+.sidebar {
+  min-height: 100vh;
 
-    .sidebar__menu {
-      position: fixed;
-      top: 288px;
-      right: 214px;
-      
-      .sidebar__list {
-        text-align: center;
-      }
+  .sidebar__menu {
+    position: fixed;
+    top: 288px;
+    right: 214px;
 
-      .sidebar__list--active {
-        background: url("../img/icon/Ellipse_hover.png") center center
-          no-repeat;
-        width: 18px;
-      }
-      .sidebar__link {
-        border-radius: 50px;
-        color: $color_text__header;
-        width: 18px;
-        height: 184px;
-        text-decoration: none;
+    .sidebar__list {
+      padding: 7px;
+
+      .sidebar__links--actives {
+        border-color: #ffffff;
       }
     }
-    .sidebar__pic {
-      width: 9px;
+    .sidebar__link {
+      width: 18px;
+      height: 19px;
+      border-radius: 50%;
+      border: 1px solid transparent;
+      position: relative;
+      display: block;
+
+      &::before {
+        content: "";
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        top: 25%;
+        left: 25%;
+        position: absolute;
+      }
     }
   }
+}
