@@ -36,6 +36,10 @@ p {
   margin-top: 0;
 }
 
+$tablet: 768px;
+$phone: 480px;
+
+
 @import "./block/head";
 @import "./block/btn";
 @import "./block/sidebar";
