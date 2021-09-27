@@ -12,14 +12,14 @@
 
 .radio__view {
   position: relative;
-  width: 25px;
-  height: 25px;
+  width: 1.5rem;
+  height: 1.5rem;
   background: #ffffff;
   border-radius: 50%;
 
   &::before {
-    width: 13px;
-    height: 13px;
+    width: 0.8rem;
+    height: 0.8rem;
     border-radius: 50%;
     position: absolute;
     display: none;
@@ -36,7 +36,7 @@
 
   &::before {
     background: url("../../img/icon/check.png") center center no-repeat;
-    width: 10px;
-    height: 9px;
+    width: 0.6rem;
+    height: 0.5rem;
   }
 }
