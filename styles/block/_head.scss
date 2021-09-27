@@ -3,16 +3,16 @@
 $color_text__header: #ffffff;
 
 .wrapper {
-  min-width: 1100px;
+  min-width: 68.7rem;
 
   .wpapper__fon {
     background: url("../img/head/arnaud-mesureur.jpg") center top no-repeat;
     background-size: cover;
-    margin-bottom: 103px;
+    margin-bottom: 6.4rem;
     min-height: 100vh;
 
     .head {
-      padding: 24px 0 70px 0;
+      padding: 1.5rem 0 4.3rem 0;
 
       .head__wrapp {
         margin: 0 auto;
@@ -21,7 +21,7 @@ $color_text__header: #ffffff;
   }
 
   .container {
-    max-width: 940px;
+    max-width: 58.7rem;
     margin: 0 auto;
     width: 100%;
 
@@ -32,11 +32,11 @@ $color_text__header: #ffffff;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 161px;
+        margin-bottom: 10rem;
 
         .logo__pic {
-          width: 55px;
-          height: 39px;
+          width: 3.4rem;
+          height: 2.4rem;
         }
       }
     }
@@ -46,7 +46,7 @@ $color_text__header: #ffffff;
     display: flex;
 
     .menu__item {
-      margin-right: 22px;
+      margin-right: 1.3rem;
 
       &:last-child {
         margin-right: 0;
@@ -55,7 +55,7 @@ $color_text__header: #ffffff;
 
     .menu__link {
       text-decoration: none;
-      font-size: 18px;
+      font-size: 1.1rem;
       font-weight: 700;
       line-height: 1.2;
       color: $color_text__header;
@@ -63,7 +63,7 @@ $color_text__header: #ffffff;
       &:hover {
         background: linear-gradient(to left, #00bfff);
         background-position: bottom;
-        background-size: 100% 2px;
+        background-size: 100% 0.1rem;
         background-repeat: repeat-x;
       }
     }
@@ -74,11 +74,11 @@ $color_text__header: #ffffff;
 
     .contacts__pic {
       margin: auto;
-      width: 12.8px;
-      height: 13.7px;
+      width: 0.8rem;
+      height: 0.8rem;
     }
     .contacts__tel {
-      font-size: 22px;
+      font-size: 1.3rem;
       font-weight: 800;
       line-height: 1.2;
       text-decoration: none;
@@ -87,14 +87,14 @@ $color_text__header: #ffffff;
       &:hover {
         background: linear-gradient(to left, #00bfff);
         background-position: bottom;
-        background-size: 100% 2px;
+        background-size: 100% 0.01rem;
         background-repeat: repeat-x;
       }
     }
   }
 
   .hero {
-    width: 583px;
+    width: 36rem;
     display: flex;
     flex-direction: column;
 
@@ -102,26 +102,26 @@ $color_text__header: #ffffff;
       max-width: 46%;
 
       .title__text {
-        font-size: 48px;
+        font-size: 3rem;
         font-weight: 700;
         line-height: 1.2;
         color: $color_text__header;
         text-transform: uppercase;
-        margin-bottom: 51px;
+        margin-bottom: 3rem;
       }
     }
 
     .subtitle {
-      font-size: 21px;
+      font-size: 1.3rem;
       font-style: 400;
       line-height: 1.2;
       color: $color_text__header;
-      margin-bottom: 102px;
+      margin-bottom: 6.3rem;
     }
 
     .button {
       display: flex;
-      margin-bottom: 127px;
+      margin-bottom: 7.9rem;
     }
   }
 
@@ -129,27 +129,27 @@ $color_text__header: #ffffff;
     display: flex;
 
     .offer__title {
-      width: 142px;
+      width: 8.8rem;
       display: flex;
-      margin-right: 33px;
+      margin-right: 2rem;
 
       &:last-child {
         margin-right: 0;
       }
 
       .offer__pic {
-        width: 34px;
-        height: 34px;
+        width: 2.1rem;
+        height: 2.1rem;
       }
 
       .offer__link {
         display: inline;
         text-decoration: none;
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 700;
         line-height: 1.1;
         color: $color_text__header;
-        padding-left: 14px;
+        padding-left: 0.8rem;
       }
     }
   }
