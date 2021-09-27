@@ -1,64 +1,54 @@
 /*offers*/
 
-
-
 .offers {
   background: #f8faf9;
-  margin-bottom: 67px;
-    
+  margin-bottom: 4.1rem;
 }
 
 .offers__hero {
   display: flex;
-  padding: 52px 0 104px 93px;
+  padding: 3.2rem 0 6.5rem 5.8rem;
   position: relative;
 
   .offers__arrow--left {
-    
+  }
 
+  .offers__arrow--right {
+  }
 }
 
-.offers__arrow--right {
-    
+.offers__select {
+  background-color: #3a587e;
+  width: 5.6rem;
+  height: 5.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
-
-}
-
-.offers__select {    
-    background-color: #3A587E;
-    width: 91px;
-    height: 91px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
 
 .offers__pic {
-  padding-right: 81px;
-  padding-top: 57px;
-  width: 396px;
+  padding-right: 5rem;
+  padding-top: 3.5rem;
+  width: 27.7rem;
 
   .offers__fon {
-    height: 378px;
+    height: 23.6rem;
     background: url("../img/offers/vector_surf.png") no-repeat;
 
     .offers__img {
-        position: absolute;
-        top: 54px;
-      }
+      position: absolute;
+      top: 3.3rem;
+    }
   }
-  
 }
 
 .offers__info {
-  max-width: 368px;
+  max-width: 23rem;
 }
 
-
 .offers__text--name {
-  font-size: 14px;
+  font-size: 0.8rem;
   font-weight: 700;
   line-height: 1.2;
   color: #ffffff;
