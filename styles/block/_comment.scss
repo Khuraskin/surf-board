@@ -1,7 +1,7 @@
 /*comment*/
 
 .comment {
-  margin-bottom: 15px;
+  margin-bottom: 0.9rem;
   min-height: 100vh;
 
   .container__comment--gray {
@@ -9,24 +9,24 @@
 
     .comment__main {
       display: flex;
-      padding: 42px;
+      padding: 2.6rem;
 
       .comment__title {
-        padding: 38px;
+        padding: 2.3rem;
         display: flex;
         flex-direction: column;
 
         .comment__text {
-          font-size: 27px;
+          font-size: 1.7rem;
           font-weight: 700;
           line-height: 1.2;
           color: #292929;
         }
 
         .comment__subtitle {
-          padding-top: 14px;
-          max-width: 463px;
-          font-size: 18px;
+          padding-top: 0.9rem;
+          max-width: 29rem;
+          font-size: 1.1rem;
           font-weight: 400;
           line-height: 1.2;
           color: #666666;
@@ -36,7 +36,7 @@
           padding-top: 25px;
 
           .comment__surname {
-            font-size: 18px;
+            font-size: 1.1rem;
             font-weight: 500;
             line-height: 1.2;
             color: #292929;
