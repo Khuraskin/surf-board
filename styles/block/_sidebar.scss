@@ -1,12 +1,10 @@
 /*sidebar*/
 
-.sidebar {
-  min-height: 100vh;
-
-  .sidebar__menu {
+  .sidebar {
     position: fixed;
     top: 18rem;
     right: 13.3rem;
+}
 
     .sidebar__list {
       padding: 0.4rem;
@@ -34,5 +32,5 @@
         position: absolute;
       }
     }
-  }
-}
+
+
