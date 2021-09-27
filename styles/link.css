@@ -214,20 +214,19 @@ p {
 
 /*sidebar*/
 .sidebar {
-  min-height: 100vh;
-}
-.sidebar .sidebar__menu {
   position: fixed;
   top: 18rem;
   right: 13.3rem;
 }
-.sidebar .sidebar__menu .sidebar__list {
+
+.sidebar__list {
   padding: 0.4rem;
 }
-.sidebar .sidebar__menu .sidebar__list .sidebar__links--actives {
+.sidebar__list .sidebar__links--actives {
   border-color: #ffffff;
 }
-.sidebar .sidebar__menu .sidebar__link {
+
+.sidebar__link {
   width: 1.1rem;
   height: 1.1rem;
   border-radius: 50%;
@@ -235,7 +234,7 @@ p {
   position: relative;
   display: block;
 }
-.sidebar .sidebar__menu .sidebar__link::before {
+.sidebar__link::before {
   content: "";
   width: 0.5rem;
   height: 0.5rem;
@@ -281,6 +280,7 @@ p {
   font-weight: 400;
   line-height: 1.2;
   color: #666666;
+  margin-bottom: 3rem;
 }
 
 /*main*/
@@ -307,7 +307,7 @@ p {
   position: absolute;
   width: 4.3rem;
   height: 1.5rem;
-  margin: 3rem 16.6rem;
+  margin: 3rem 7.6rem;
 }
 .main__content .main__link .main__logo {
   display: -webkit-box;
@@ -578,12 +578,10 @@ p {
 }
 
 /*review*/
-.reviews {
+.reviews__text {
   margin-bottom: 2rem;
-  min-height: 100vh;
 }
-
-.reviews__title {
+.reviews__text .reviews__title {
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
@@ -599,6 +597,7 @@ p {
 }
 .comment .container__comment--gray {
   background-color: #f8faf9;
+  margin-bottom: 0.9rem;
 }
 .comment .container__comment--gray .comment__main {
   display: -webkit-box;
@@ -641,11 +640,6 @@ p {
 }
 
 /*clients*/
-.clients {
-  margin-bottom: 3.9rem;
-  min-height: 100vh;
-}
-
 .clients__list {
   display: -webkit-box;
   display: -ms-flexbox;
