@@ -6,11 +6,17 @@ $color_text__header: #ffffff;
   width: 100%;
   min-height: 100%;
 
-  .wpapper__fon {
+  .wrapper__fon {
     background: url("../img/head/arnaud-mesureur.jpg") center top no-repeat;
     background-size: cover;
     margin-bottom: 6.4rem;
     min-height: 100vh;
+
+    .wrapper__fon {
+        @include tablet {
+            background: none;
+        }
+    } 
 
     .head {
       padding: 1.5rem 0 4.3rem 0;
@@ -20,7 +26,6 @@ $color_text__header: #ffffff;
       }
     }
   }
-
   
     .header {
       position: relative;
@@ -37,8 +42,14 @@ $color_text__header: #ffffff;
         }
       }
     }
-  
 
+    .menu {
+        @include tablet {
+            display: none;
+        }
+    }    
+    
+       
   .menu__list {
     display: flex;
 
@@ -65,6 +76,18 @@ $color_text__header: #ffffff;
       }
     }
   }
+
+  .contacts__tel {
+    @include tablet {
+        display: none;
+    }
+}
+
+.contacts__pic {
+    @include tablet {
+        display: none;
+    }
+}
 
   .contacts {
     display: flex;
@@ -106,6 +129,13 @@ $color_text__header: #ffffff;
         text-transform: uppercase;
         margin-bottom: 3rem;
       }
+
+      .title__text {
+        @include tablet {
+            
+        }
+    }
+
     }
 
     .subtitle {
@@ -121,6 +151,12 @@ $color_text__header: #ffffff;
       margin-bottom: 7.9rem;
     }
   }
+
+  .offer {
+    @include tablet {
+        display: none;
+    }
+}
 
   .offer__main {
     display: flex;
