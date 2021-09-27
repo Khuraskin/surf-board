@@ -36,6 +36,12 @@ p {
   margin-top: 0;
 }
 
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  width: 100%;
+}
+
 /*head*/
 .wrapper {
   width: 100%;
@@ -53,15 +59,10 @@ p {
 .wrapper .wpapper__fon .head .head__wrapp {
   margin: 0 auto;
 }
-.wrapper .container {
-  max-width: 940px;
-  margin: 0 auto;
-  width: 100%;
-}
-.wrapper .container .header {
+.wrapper .header {
   position: relative;
 }
-.wrapper .container .header .header__master {
+.wrapper .header .header__master {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,7 +74,7 @@ p {
           align-items: center;
   margin-bottom: 10rem;
 }
-.wrapper .container .header .header__master .logo__pic {
+.wrapper .header .header__master .logo__pic {
   width: 3.4rem;
   height: 2.4rem;
 }
