@@ -1,7 +1,7 @@
 /*clients*/
 
 .clients {
-  margin-bottom: 63px;
+  margin-bottom: 3.9rem;
   min-height: 100vh;
 }
 
@@ -10,14 +10,14 @@
   justify-content: center;
 
   .clients__info {
-    padding-right: 6px;
+    padding-right: 0.4rem;
 
     &:last-child {
       padding-right: 0;
     }
     .clients__pic {
-      width: 74px;
-      height: 74px;
+      width: 4.6rem;
+      height: 4.6rem;
       overflow: hidden;
       border-radius: 50%;
     }
