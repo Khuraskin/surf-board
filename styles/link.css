@@ -955,7 +955,7 @@ p {
   border-radius: 0;
 }
 .radio__view--no::before {
-  background: url("../../img/icon/check.png") center center no-repeat;
+  background: url("../img/icon/check.png") center center no-repeat;
   width: 0.6rem;
   height: 0.5rem;
 }
