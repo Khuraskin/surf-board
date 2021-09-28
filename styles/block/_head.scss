@@ -2,33 +2,30 @@
 
 $color_text__header: #ffffff;
 
-.wrapper__fon {
-  background: url("../img/head/arnaud-mesureur.jpg") center top no-repeat;
-  background-size: cover;
-  margin-bottom: 6.4rem;
-  min-height: 100vh;
-  max-width: 100%;
-
-  .wrapper__fon {
-    @include tablet {
-      background: url("../img/head/768_px/arnaud-mesureur.png") center top
-        no-repeat;
-      background-size: cover;
-      min-height: 100vh;
-      max-width: 100%;
-    }
-  }
-}
-
 .wrapper {
   width: 100%;
   min-height: 100%;
 
-  .head {
-    padding: 1.5rem 0 4.3rem 0;
+  .wrapper__fon {
+    @include tablet {
+      background: url("../../img/head/768_px/arnaud-mesureur.png") center top
+        no-repeat;
+    }
+  }
 
-    .head__wrapp {
-      margin: 0 auto;
+  .wrapper__fon {
+    background: url("../img/head/arnaud-mesureur.jpg") center top no-repeat;
+    background-size: cover;
+    margin-bottom: 6.4rem;
+    min-height: 100vh;
+    max-width: 100%;
+
+    .head {
+      padding: 1.5rem 0 4.3rem 0;
+
+      .head__wrapp {
+        margin: 0 auto;
+      }
     }
   }
 
