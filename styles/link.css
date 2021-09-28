@@ -804,6 +804,11 @@ p {
   padding-top: 6.8rem;
   margin-bottom: 7.5rem;
 }
+@media screen and (max-width: 768px) {
+  .form__title {
+    margin-bottom: 5rem;
+  }
+}
 .form__subtitle {
   text-align: center;
   text-transform: uppercase;
@@ -885,20 +890,40 @@ p {
   height: 3.6rem;
   padding-left: 0.7rem;
 }
+@media screen and (max-width: 768px) {
+  .form__text {
+    height: 2.2rem;
+  }
+}
 .form__input {
   width: 28.7rem;
   height: 3.6rem;
   padding-left: 0.7rem;
+}
+@media screen and (max-width: 768px) {
+  .form__input {
+    height: 2.2rem;
+  }
 }
 .form__item {
   width: 5.8rem;
   height: 3.6rem;
   padding-left: 0.7rem;
 }
+@media screen and (max-width: 768px) {
+  .form__item {
+    height: 2.2rem;
+  }
+}
 .form__insert--wishes {
   width: 29rem;
   height: 9.5rem;
   resize: none;
+}
+@media screen and (max-width: 768px) {
+  .form__insert--wishes {
+    height: 5rem;
+  }
 }
 .form__payments {
   display: -webkit-box;
@@ -954,6 +979,19 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+@media screen and (max-width: 768px) {
+  .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 .buttons .btn__theme--transparent {
   font-size: 1.1rem;
