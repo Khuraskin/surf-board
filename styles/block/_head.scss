@@ -114,6 +114,12 @@ $color_text__header: #ffffff;
     display: flex;
     flex-direction: column;
 
+    .hero__section {
+      display: flex;
+      flex-direction: column;
+    }
+    
+
     .title__text {
       @include tablet {
         max-width: 100%;
