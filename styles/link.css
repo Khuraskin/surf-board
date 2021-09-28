@@ -877,9 +877,6 @@ p {
   line-height: 1.2;
   color: #fff;
 }
-.form__wishes {
-  margin-bottom: 2.9rem;
-}
 .form__info--title {
   margin-bottom: 2.3rem;
 }
@@ -943,7 +940,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 47px;
+  margin-bottom: 2.9rem;
 }
 .form__nocall {
   font-size: 1.1rem;
