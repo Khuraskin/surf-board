@@ -2,192 +2,200 @@
 
 $color_text__header: #ffffff;
 
-.head {
-  @include tablet {
-    padding: 0;
-  }
-}
-
 
 .wrapper {
-  width: 100%;
-  min-height: 100%;
 
-  .wrapper__fon {
+  & {
+    width: 100%;
+    min-height: 100%;
+  }
+
+  &__fon {
     @include tablet {
-      background: url("../../img/head/768_px/arnaud-mesureur.png") center top
+      background: url("../img/head/768_px/arnaud-mesureur.png") center top
         no-repeat;
     }
   }
 
-  
-  .wrapper__fon {
+  &__fon {
     background: url("../img/head/arnaud-mesureur.jpg") center top no-repeat;
     background-size: cover;
     margin-bottom: 6.4rem;
     min-height: 100vh;
-    max-width: 100%;     
-
-
-    .head {
-      padding: 1.5rem 0 4.3rem 0;
-
-      .head__wrapp {
-        margin: 0 auto;
-      }
-    }
+    max-width: 100%;
   }
+}
 
-  .header {
+.head {
+  padding: 1.5rem 0 4.3rem 0;
+
+  &__wrapp {
+    margin: 0 auto;
+  }
+}
+
+.header {
+  
+  & {
     position: relative;
-
-    .header__master {
-      @include tablet {
-        background-color: #1968B1;
-        height: 5.6rem;       
-        
-      }
-    }
-
-    .header__master {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 10rem;
-
-     
-
-      .logo__pic {
-        width: 3.4rem;
-        height: 2.4rem;
-      }
-    }
   }
 
-  .menu {
+  &__master {
     @include tablet {
-      display: none;
+      background-color: #1968b1;
+      height: 5.6rem;
     }
   }
 
-  .menu__list {
+  &__master {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
 
-    .menu__item {
-      margin-right: 1.3rem;
-
-      &:last-child {
-        margin-right: 0;
-      }
-    }
-
-    .menu__link {
-      text-decoration: none;
-      font-size: 1.1rem;
-      font-weight: 700;
-      line-height: 1.2;
-      color: $color_text__header;
-
-      &:hover {
-        background: linear-gradient(to left, #00bfff);
-        background-position: bottom;
-        background-size: 100% 0.1rem;
-        background-repeat: repeat-x;
-      }
+    .logo__pic {
+      width: 3.4rem;
+      height: 2.4rem;
     }
   }
+}
 
-  .contacts__tel {
-    @include tablet {
-      display: none;
-    }
+.menu {
+  @include tablet {
+    display: none;
   }
+}
 
-  .contacts__pic {
-    @include tablet {
-      display: none;
-    }
-  }
-
-  .contacts {
+.menu {
+  &__list {
     display: flex;
+  }
 
-    .contacts__pic {
-      margin: auto;
-      width: 0.8rem;
-      height: 0.8rem;
-    }
-    .contacts__tel {
-      font-size: 1.3rem;
-      font-weight: 800;
-      line-height: 1.2;
-      text-decoration: none;
-      color: $color_text__header;
+  &__item {
+    margin-right: 1.3rem;
 
-      &:hover {
-        background: linear-gradient(to left, #00bfff);
-        background-position: bottom;
-        background-size: 100% 0.01rem;
-        background-repeat: repeat-x;
-      }
+    &:last-child {
+      margin-right: 0;
     }
   }
 
-  .hero {
-    width: 36rem;
-    display: flex;
-    flex-direction: column;
-
-    .hero__section {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .title {
-      @include tablet {
-        max-width: 100%;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-      }
-    }
-    .subtitle {
-      @include tablet {
-        max-width: 100%;
-        text-align: center;
-      }
-    }
-
-    .button {
-      @include tablet {
-        display: flex;
-        justify-content: center;
-      }
-    }
-  }
-
-  .title {
-    font-size: 3rem;
+  &__link {
+    text-decoration: none;
+    font-size: 1.1rem;
     font-weight: 700;
     line-height: 1.2;
     color: $color_text__header;
-    text-transform: uppercase;
-    margin-bottom: 3rem;
-    max-width: 46%;
+
+    &:hover {
+      background: linear-gradient(to left, #00bfff);
+      background-position: bottom;
+      background-size: 100% 0.1rem;
+      background-repeat: repeat-x;
+    }
+  }
+}
+
+.contacts {
+
+  & {
+    display: flex;
   }
 
-  .subtitle {
+  &__pic {
+    margin: auto;
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  &__tel {
     font-size: 1.3rem;
-    font-style: 400;
+    font-weight: 800;
     line-height: 1.2;
+    text-decoration: none;
     color: $color_text__header;
-    margin-bottom: 6.3rem;
+
+    &:hover {
+      background: linear-gradient(to left, #00bfff);
+      background-position: bottom;
+      background-size: 100% 0.01rem;
+      background-repeat: repeat-x;
+    }
+  }
+
+
+}
+
+.contacts__tel {
+  @include tablet {
+    display: none;
+  }
+}
+
+.contacts__pic {
+  @include tablet {
+    display: none;
+  }
+}
+
+
+  
+
+ 
+
+
+.hero {
+  width: 36rem;
+  display: flex;
+  flex-direction: column;
+
+  .hero__section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    @include tablet {
+      max-width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .subtitle {
+    @include tablet {
+      max-width: 100%;
+      text-align: center;
+    }
   }
 
   .button {
-    display: flex;
-    margin-bottom: 7.9rem;
+    @include tablet {
+      display: flex;
+      justify-content: center;
+    }
   }
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: $color_text__header;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  max-width: 46%;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  font-style: 400;
+  line-height: 1.2;
+  color: $color_text__header;
+  margin-bottom: 6.3rem;
+}
+
+.button {
+  display: flex;
+  margin-bottom: 7.9rem;
 }
 
 .offer {
