@@ -57,6 +57,12 @@ p {
 }
 
 /*head*/
+@media screen and (max-width: 768px) {
+  .head {
+    padding: 0;
+  }
+}
+
 .wrapper {
   width: 100%;
   min-height: 100%;
@@ -81,6 +87,12 @@ p {
 }
 .wrapper .header {
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .wrapper .header .header__master {
+    background-color: #1968B1;
+    height: 5.6rem;
+  }
 }
 .wrapper .header .header__master {
   display: -webkit-box;
