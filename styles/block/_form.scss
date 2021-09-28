@@ -16,6 +16,12 @@
     margin-bottom: 7.5rem;
   }
 
+  &__title {
+    @include tablet {
+      margin-bottom: 5rem;
+    }
+  }
+
   &__subtitle {
     text-align: center;
     text-transform: uppercase;
@@ -107,10 +113,22 @@
     padding-left: 0.7rem;
   }
 
+  &__text {
+    @include tablet {
+      height: 2.2rem;
+    }
+  }
+
   &__input {
     width: 28.7rem;
     height: 3.6rem;
     padding-left: 0.7rem;
+  }
+
+  &__input {
+    @include tablet {
+      height: 2.2rem;
+    }
   }
 
   &__item {
@@ -119,10 +137,22 @@
     padding-left: 0.7rem;
   }
 
+  &__item {
+    @include tablet {
+      height: 2.2rem;
+    }
+  }
+
   &__insert--wishes {
     width: 29rem;
     height: 9.5rem;
     resize: none;
+  }
+
+  &__insert--wishes {
+    @include tablet {
+      height: 5rem;
+    }
   }
 
   &__payments {
@@ -173,12 +203,24 @@
 }
 
 .buttons {
-  display: flex;
 
-  .btn__theme--transparent {
-    font-size: 1.1rem;
-    font-weight: 400;
-    line-height: 1.2;
-    color: #fff;
+  & {
+    display: flex;
   }
+
+  & {
+    @include tablet {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+    }
+
+    .btn__theme--transparent {
+      font-size: 1.1rem;
+      font-weight: 400;
+      line-height: 1.2;
+      color: #fff;
+    } 
+
 }
