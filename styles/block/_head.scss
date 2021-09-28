@@ -2,63 +2,58 @@
 
 $color_text__header: #ffffff;
 
+.wrapper__fon {
+  background: url("../img/head/arnaud-mesureur.jpg") center top no-repeat;
+  background-size: cover;
+  margin-bottom: 6.4rem;
+  min-height: 100vh;
+  max-width: 100%;
 
+  .wrapper__fon {
+    @include tablet {
+      background: url("../img/head/768_px/arnaud-mesureur.png") center top
+        no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+      max-width: 100%;
+    }
+  }
+}
 
 .wrapper {
   width: 100%;
   min-height: 100%;
 
+  .head {
+    padding: 1.5rem 0 4.3rem 0;
 
-  
-
-  .wrapper__fon {
-    background: url("../img/head/arnaud-mesureur.jpg") center top no-repeat;
-    background-size: cover;
-    margin-bottom: 6.4rem;
-    min-height: 100vh;
-    max-width: 100%;
-
-    .wrapper__fon {
-      @include tablet {
-        background: url("../img/head/768_px/arnaud-mesureur.png") center top no-repeat;
-        background-size: cover;
-        min-height: 100vh;
-        max-width: 100%;
-      }
+    .head__wrapp {
+      margin: 0 auto;
     }
-        
-    .head {
-      padding: 1.5rem 0 4.3rem 0;
+  }
 
-      .head__wrapp {
-        margin: 0 auto;
+  .header {
+    position: relative;
+
+    .header__master {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10rem;
+
+      .logo__pic {
+        width: 3.4rem;
+        height: 2.4rem;
       }
     }
   }
-  
-    .header {
-      position: relative;
 
-      .header__master {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 10rem;
-
-        .logo__pic {
-          width: 3.4rem;
-          height: 2.4rem;
-        }
-      }
+  .menu {
+    @include tablet {
+      display: none;
     }
+  }
 
-    .menu {
-        @include tablet {
-            display: none;
-        }
-    }    
-    
-       
   .menu__list {
     display: flex;
 
@@ -88,15 +83,15 @@ $color_text__header: #ffffff;
 
   .contacts__tel {
     @include tablet {
-        display: none;
+      display: none;
     }
-}
+  }
 
-.contacts__pic {
+  .contacts__pic {
     @include tablet {
-        display: none;
+      display: none;
     }
-}
+  }
 
   .contacts {
     display: flex;
@@ -127,12 +122,10 @@ $color_text__header: #ffffff;
     display: flex;
     flex-direction: column;
 
- 
     .hero__section {
       display: flex;
       flex-direction: column;
     }
-    
 
     .title {
       @include tablet {
@@ -140,15 +133,14 @@ $color_text__header: #ffffff;
         text-align: center;
         display: flex;
         justify-content: center;
-        
+      }
     }
-    }     
     .subtitle {
       @include tablet {
         max-width: 100%;
-        text-align: center;                  
+        text-align: center;
+      }
     }
-    }  
 
     .button {
       @include tablet {
@@ -156,10 +148,9 @@ $color_text__header: #ffffff;
         justify-content: center;
       }
     }
+  }
 
-   }
-
-   .title {
+  .title {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.2;
@@ -167,56 +158,53 @@ $color_text__header: #ffffff;
     text-transform: uppercase;
     margin-bottom: 3rem;
     max-width: 46%;
-  }      
-
-
-    .subtitle {
-      font-size: 1.3rem;
-      font-style: 400;
-      line-height: 1.2;
-      color: $color_text__header;
-      margin-bottom: 6.3rem;    
-    
-    }
-
-    .button {
-      display: flex;
-      margin-bottom: 7.9rem;
-    }
   }
 
-  .offer {
-    @include tablet {
-        display: none;
-    }
+  .subtitle {
+    font-size: 1.3rem;
+    font-style: 400;
+    line-height: 1.2;
+    color: $color_text__header;
+    margin-bottom: 6.3rem;
+  }
+
+  .button {
+    display: flex;
+    margin-bottom: 7.9rem;
+  }
 }
 
-  .offer__main {
+.offer {
+  @include tablet {
+    display: none;
+  }
+}
+
+.offer__main {
+  display: flex;
+
+  .offer__title {
+    width: 8.8rem;
     display: flex;
+    margin-right: 2rem;
 
-    .offer__title {
-      width: 8.8rem;
-      display: flex;
-      margin-right: 2rem;
+    &:last-child {
+      margin-right: 0;
+    }
 
-      &:last-child {
-        margin-right: 0;
-      }
+    .offer__pic {
+      width: 2.1rem;
+      height: 2.1rem;
+    }
 
-      .offer__pic {
-        width: 2.1rem;
-        height: 2.1rem;
-      }
-
-      .offer__link {
-        display: inline;
-        text-decoration: none;
-        font-size: 1rem;
-        font-weight: 700;
-        line-height: 1.1;
-        color: $color_text__header;
-        padding-left: 0.8rem;
-      }
+    .offer__link {
+      display: inline;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.1;
+      color: $color_text__header;
+      padding-left: 0.8rem;
     }
   }
-
+}
