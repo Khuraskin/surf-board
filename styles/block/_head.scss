@@ -2,6 +2,13 @@
 
 $color_text__header: #ffffff;
 
+.head {
+  @include tablet {
+    padding: 0;
+  }
+}
+
+
 .wrapper {
   width: 100%;
   min-height: 100%;
@@ -13,12 +20,14 @@ $color_text__header: #ffffff;
     }
   }
 
+  
   .wrapper__fon {
     background: url("../img/head/arnaud-mesureur.jpg") center top no-repeat;
     background-size: cover;
     margin-bottom: 6.4rem;
     min-height: 100vh;
-    max-width: 100%;
+    max-width: 100%;     
+
 
     .head {
       padding: 1.5rem 0 4.3rem 0;
@@ -33,10 +42,20 @@ $color_text__header: #ffffff;
     position: relative;
 
     .header__master {
+      @include tablet {
+        background-color: #1968B1;
+        height: 5.6rem;       
+        
+      }
+    }
+
+    .header__master {
       display: flex;
       justify-content: space-between;
       align-items: center;
       margin-bottom: 10rem;
+
+     
 
       .logo__pic {
         width: 3.4rem;
