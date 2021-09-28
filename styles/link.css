@@ -2,6 +2,16 @@
 html {
   font-size: 18px;
 }
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 18px -1px;
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 18px -2px;
+  }
+}
 
 html,
 body {
@@ -50,11 +60,6 @@ p {
 .wrapper {
   width: 100%;
   min-height: 100%;
-}
-@media screen and (max-width: 768px) {
-  .wrapper .wrapper__fon {
-    background: none;
-  }
 }
 .wrapper .wrapper__fon {
   background: url("../img/head/arnaud-mesureur.jpg") center top no-repeat;
@@ -161,55 +166,61 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.wrapper .hero .title {
-  max-width: 46%;
+@media screen and (max-width: 768px) {
+  .wrapper .hero .title__text {
+    max-width: 100%;
+    text-align: center;
+  }
 }
-.wrapper .hero .title .title__text {
+.wrapper .title {
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
   color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 3rem;
+  max-width: 46%;
 }
-.wrapper .hero .subtitle {
+.wrapper .subtitle {
   font-size: 1.3rem;
   font-style: 400;
   line-height: 1.2;
   color: #ffffff;
   margin-bottom: 6.3rem;
 }
-.wrapper .hero .button {
+.wrapper .button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 7.9rem;
 }
+
 @media screen and (max-width: 768px) {
-  .wrapper .offer {
+  .offer {
     display: none;
   }
 }
-.wrapper .offer__main {
+
+.offer__main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.wrapper .offer__main .offer__title {
+.offer__main .offer__title {
   width: 8.8rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-right: 2rem;
 }
-.wrapper .offer__main .offer__title:last-child {
+.offer__main .offer__title:last-child {
   margin-right: 0;
 }
-.wrapper .offer__main .offer__title .offer__pic {
+.offer__main .offer__title .offer__pic {
   width: 2.1rem;
   height: 2.1rem;
 }
-.wrapper .offer__main .offer__title .offer__link {
+.offer__main .offer__title .offer__link {
   display: inline;
   text-decoration: none;
   font-size: 1rem;
