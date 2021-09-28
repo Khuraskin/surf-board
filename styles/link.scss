@@ -1,8 +1,26 @@
 /*link*/
 
+@import "./block/media";
+
+$heroFontSize: 18px;
+
+$tablet: 768px;
+
+$phone: 480px;
+
 html {
-    font-size: 18px;
+    font-size: $heroFontSize;
+    
+    @include tablet {
+      font-size: $heroFontSize -1px;
+    }
+
+    @include phone {
+      font-size: $heroFontSize -2px;
+    }
+
 }
+
 
 html,
 body {
@@ -42,13 +60,16 @@ p {
 }
 
 .container {
+  width: 100%;
   max-width: 940px;
   margin: 0 auto;
-  width: 100%;
+  
 }
 
 
-@import "./block/media";
+
+
+
 
 @import "./block/head";
 @import "./block/btn";
