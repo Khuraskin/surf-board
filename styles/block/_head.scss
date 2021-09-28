@@ -2,18 +2,31 @@
 
 $color_text__header: #ffffff;
 
+
+
 .wrapper {
   width: 100%;
   min-height: 100%;
 
 
+  
 
   .wrapper__fon {
     background: url("../img/head/arnaud-mesureur.jpg") center top no-repeat;
     background-size: cover;
     margin-bottom: 6.4rem;
     min-height: 100vh;
-    
+    max-width: 100%;
+
+    .wrapper__fon {
+      @include tablet {
+        background: url("../img/head/768_px/arnaud-mesureur.png") center top no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        max-width: 100%;
+      }
+    }
+        
     .head {
       padding: 1.5rem 0 4.3rem 0;
 
@@ -114,19 +127,35 @@ $color_text__header: #ffffff;
     display: flex;
     flex-direction: column;
 
+ 
     .hero__section {
       display: flex;
       flex-direction: column;
     }
     
 
-    .title__text {
+    .title {
       @include tablet {
         max-width: 100%;
         text-align: center;
+        display: flex;
+        justify-content: center;
         
     }
-    }      
+    }     
+    .subtitle {
+      @include tablet {
+        max-width: 100%;
+        text-align: center;                  
+    }
+    }  
+
+    .button {
+      @include tablet {
+        display: flex;
+        justify-content: center;
+      }
+    }
 
    }
 
@@ -146,7 +175,8 @@ $color_text__header: #ffffff;
       font-style: 400;
       line-height: 1.2;
       color: $color_text__header;
-      margin-bottom: 6.3rem;
+      margin-bottom: 6.3rem;    
+    
     }
 
     .button {
