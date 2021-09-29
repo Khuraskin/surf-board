@@ -54,6 +54,7 @@ p {
   width: 100%;
   max-width: 59rem;
   margin: 0 auto;
+  position: relative;
 }
 
 .wrapper {
@@ -205,7 +206,7 @@ p {
 }
 
 .hero {
-  width: 41rem;
+  max-width: 41rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -228,14 +229,16 @@ p {
     max-width: 26.5rem;
   }
 }
+.hero__block {
+  max-width: 46%;
+  margin-bottom: 3rem;
+}
 .hero__title {
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.1;
   color: #ffffff;
   text-transform: uppercase;
-  margin-bottom: 3rem;
-  max-width: 46%;
 }
 @media screen and (max-width: 768px) {
   .hero__title {
@@ -408,7 +411,7 @@ p {
   text-transform: uppercase;
 }
 .features__subtitle {
-  width: 27.23rem;
+  max-width: 27.23rem;
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.2;
@@ -424,10 +427,28 @@ p {
           justify-content: space-between;
   margin-bottom: 7rem;
 }
+@media screen and (max-width: 480px) {
+  .features__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) {
+  .features__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 .features__link {
   margin-right: 3.3rem;
 }
-.features__link:last-child {
+.features__link__link:last-child {
   margin-right: 0;
 }
 .features__intermediate__icon {
@@ -450,9 +471,9 @@ p {
           justify-content: center;
   padding-bottom: 1.2rem;
 }
-.features__img {
-  background-color: #f2f5f4;
-  border-radius: 50%;
+.features__ima {
+  max-width: 122px;
+  max-height: 122px;
 }
 .features__pic {
   display: -webkit-box;
@@ -466,6 +487,9 @@ p {
           justify-content: center;
   width: 8rem;
   height: 8rem;
+}
+.features__pic {
+  background: url("../img/icon/ellipse.png") center no-repeat;
 }
 .features__foto {
   width: 4.2rem;
@@ -739,6 +763,16 @@ p {
     text-align: center;
   }
 }
+.comment__pic {
+  width: 15.8rem;
+  height: 16.5rem;
+}
+@media screen and (max-width: 768px) {
+  .comment__pic {
+    width: 8rem;
+    height: 8rem;
+  }
+}
 .comment__title {
   padding: 2.3rem;
   display: -webkit-box;
@@ -977,7 +1011,7 @@ p {
   padding-right: 0.5rem;
   cursor: pointer;
 }
-.form__hero:last-child {
+.form__hero__hero:last-child {
   padding-right: 0;
 }
 .form__cash {
