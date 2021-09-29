@@ -104,15 +104,15 @@ p {
   .header__master {
     background-color: #1968b1;
     height: 5.6rem;
+    margin-bottom: 316px;
   }
 }
-
-.logo__pic {
+.header__pic {
   width: 3.4rem;
   height: 2.4rem;
 }
 @media screen and (max-width: 768px) {
-  .logo__pic {
+  .header__pic {
     padding-left: 1.8rem;
   }
 }
