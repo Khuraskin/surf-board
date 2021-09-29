@@ -61,7 +61,7 @@ p {
   min-height: 100%;
 }
 .wrapper__fon {
-  background: url("../img/head/arnaud-mesureur.jpg") center top no-repeat;
+  background: url("../../img/head/arnaud-mesureur-17OxKyThYPo-unsplash.png") center top no-repeat;
   background-size: cover;
   margin-bottom: 6.4rem;
   min-height: 100vh;
@@ -72,6 +72,11 @@ p {
     background: url("../img/head/768_px/arnaud-mesureur.png") center top no-repeat;
   }
 }
+@media screen and (max-width: 480px) {
+  .wrapper__fon {
+    background: url("../img/head/480__px/arnaud-mesureur.png") center top no-repeat;
+  }
+}
 
 .head {
   padding: 1.5rem 0 4.3rem 0;
@@ -80,6 +85,11 @@ p {
   margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
+  .head {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 480px) {
   .head {
     padding: 0;
   }
@@ -104,7 +114,14 @@ p {
   .header__master {
     background-color: #1968b1;
     height: 5.6rem;
-    margin-bottom: 316px;
+    margin-bottom: 15rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header__master {
+    background-color: #1968b1;
+    height: 5.6rem;
+    margin-bottom: 15rem;
   }
 }
 .header__pic {
@@ -187,7 +204,7 @@ p {
 }
 
 .hero {
-  width: 36rem;
+  width: 41rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,10 +222,15 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+@media screen and (max-width: 480px) {
+  .hero__section {
+    max-width: 26.5rem;
+  }
+}
 .hero__title {
   font-size: 3rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.1;
   color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 3rem;
@@ -217,6 +239,22 @@ p {
 @media screen and (max-width: 768px) {
   .hero__title {
     max-width: 100%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 0.1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero__title {
+    max-width: 100%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -237,6 +275,7 @@ p {
   .hero__subtitle {
     max-width: 100%;
     text-align: center;
+    margin-bottom: 2.75rem;
   }
 }
 .hero__button {
@@ -1041,6 +1080,11 @@ p {
 }
 .sidebar__list {
   padding: 0.4rem;
+}
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
 }
 .sidebar__link {
   width: 1.1rem;
