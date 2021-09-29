@@ -52,13 +52,14 @@ p {
 
 .container {
   width: 100%;
-  max-width: 940px;
+  max-width: 59rem;
   margin: 0 auto;
 }
 
 .wrapper {
   width: 100%;
   min-height: 100%;
+  overflow: hidden;
 }
 .wrapper__fon {
   background: url("../../img/head/arnaud-mesureur-17OxKyThYPo-unsplash.png") center top no-repeat;
