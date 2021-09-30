@@ -12,11 +12,6 @@ html {
     font-size: 16px;
   }
 }
-@media screen and (max-width: 320px) {
-  html {
-    font-size: 12px;
-  }
-}
 
 html,
 body {
@@ -61,7 +56,7 @@ p {
   overflow: hidden;
 }
 .wrapper__fon {
-  background: url("../img/head/arnaud-mesureur-17OxKyThYPo-unsplash.png") center top no-repeat;
+  background: url("../../img/head/arnaud-mesureur-17OxKyThYPo-unsplash.png") center top no-repeat;
   background-size: cover;
   margin-bottom: 6.4rem;
   min-height: 100vh;
@@ -70,11 +65,16 @@ p {
 @media screen and (max-width: 768px) {
   .wrapper__fon {
     background: url("../img/head/768_px/arnaud-mesureur.png") center top no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
   .wrapper__fon {
     background: url("../img/head/480__px/arnaud-mesureur.png") center top no-repeat;
+    min-height: 100vh;
+    max-width: 100%;
   }
 }
 
@@ -89,24 +89,66 @@ p {
 .head {
   padding: 1.5rem 0 4.3rem 0;
 }
-.head__wrapp {
+.head__wrapper {
   margin: 0 auto;
+}
+.head__link {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .head__link {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+}
+@media screen and (max-width: 480px) {
+  .head__link {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+}
+@media screen and (max-width: 768px) {
+  .head__tablet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #1968b1;
+    height: 3.1rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0.4rem 1.4rem 0.4rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .head__tablet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #1968b1;
+    height: 3.1rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0.4rem 1.4rem 0.4rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 @media screen and (max-width: 768px) {
   .head {
-    padding: 0;
+    padding: 0 0 4.3rem 0;
   }
 }
 @media screen and (max-width: 480px) {
   .head {
-    padding: 0;
-  }
-}
-@media screen and (max-width: 768px) {
-  .head__color {
-    max-height: 5.6rem;
-    background-color: #1968b1;
-    margin-bottom: 15rem;
+    padding: 0 0 4.3rem 0;
   }
 }
 
@@ -126,20 +168,23 @@ p {
   margin-bottom: 10rem;
 }
 @media screen and (max-width: 768px) {
-  .header__master {
-    height: 5.6rem;
-    margin-bottom: 15rem;
+  .header__logo {
+    display: none;
   }
 }
 @media screen and (max-width: 480px) {
-  .header__master {
-    height: 5.6rem;
-    margin-bottom: 9rem;
+  .header__logo {
+    display: none;
   }
 }
 .header__pic {
   width: 3.4rem;
   height: 2.4rem;
+}
+@media screen and (max-width: 768px) {
+  .header__pic {
+    padding-left: 1.8rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -340,7 +385,6 @@ p {
 
 .hamburger {
   width: 25px;
-  height: 22px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
