@@ -123,7 +123,7 @@ p {
   .header__master {
     background-color: #1968b1;
     height: 5.6rem;
-    margin-bottom: 15rem;
+    margin-bottom: 9rem;
   }
 }
 .header__pic {
@@ -445,12 +445,6 @@ p {
     display: flex;
   }
 }
-.features__link {
-  margin-right: 3.3rem;
-}
-.features__link__link:last-child {
-  margin-right: 0;
-}
 .features__intermediate__icon {
   position: absolute;
   width: 4.3rem;
@@ -462,6 +456,17 @@ p {
     display: none;
   }
 }
+.features__block {
+  padding-bottom: 1.2rem;
+}
+@media screen and (max-width: 480px) {
+  .features__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+  }
+}
 .features__logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -469,11 +474,6 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 1.2rem;
-}
-.features__ima {
-  max-width: 122px;
-  max-height: 122px;
 }
 .features__pic {
   display: -webkit-box;
@@ -490,20 +490,37 @@ p {
 }
 .features__pic {
   background: url("../img/icon/ellipse.png") center no-repeat;
+  border-radius: 50%;
+  max-width: 8rem;
+  max-height: 8rem;
 }
 .features__foto {
   width: 4.2rem;
   height: 4.2rem;
 }
-.features__block {
-  text-align: center;
+@media screen and (max-width: 480px) {
+  .features__titles {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0.75rem;
+  }
 }
 .features__name {
   font-size: 1.7rem;
   font-weight: 700;
   line-height: 1.2;
   color: #292929;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
+}
+@media screen and (max-width: 480px) {
+  .features__name {
+    padding-bottom: 0;
+  }
 }
 .features__product {
   font-size: 1.1rem;
