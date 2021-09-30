@@ -61,7 +61,7 @@ p {
   overflow: hidden;
 }
 .wrapper__fon {
-  background: url("../../img/head/arnaud-mesureur-17OxKyThYPo-unsplash.png") center top no-repeat;
+  background: url("../img/head/arnaud-mesureur-17OxKyThYPo-unsplash.png") center top no-repeat;
   background-size: cover;
   margin-bottom: 6.4rem;
   min-height: 100vh;
