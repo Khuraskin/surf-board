@@ -4,12 +4,17 @@ html {
 }
 @media screen and (max-width: 768px) {
   html {
-    font-size: 18px -1px;
+    font-size: 17px;
   }
 }
 @media screen and (max-width: 480px) {
   html {
-    font-size: 18px -2px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 12px;
   }
 }
 
@@ -50,13 +55,6 @@ p {
   margin-top: 0;
 }
 
-.container {
-  width: 100%;
-  max-width: 59rem;
-  margin: 0 auto;
-  position: relative;
-}
-
 .wrapper {
   width: 100%;
   min-height: 100%;
@@ -80,6 +78,14 @@ p {
   }
 }
 
+.container {
+  width: 95%;
+  max-width: 100%;
+  max-width: 59rem;
+  margin: 0 auto;
+  position: relative;
+}
+
 .head {
   padding: 1.5rem 0 4.3rem 0;
 }
@@ -94,6 +100,13 @@ p {
 @media screen and (max-width: 480px) {
   .head {
     padding: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .head__color {
+    max-height: 5.6rem;
+    background-color: #1968b1;
+    margin-bottom: 15rem;
   }
 }
 
@@ -114,14 +127,12 @@ p {
 }
 @media screen and (max-width: 768px) {
   .header__master {
-    background-color: #1968b1;
     height: 5.6rem;
     margin-bottom: 15rem;
   }
 }
 @media screen and (max-width: 480px) {
   .header__master {
-    background-color: #1968b1;
     height: 5.6rem;
     margin-bottom: 9rem;
   }
@@ -129,11 +140,6 @@ p {
 .header__pic {
   width: 3.4rem;
   height: 2.4rem;
-}
-@media screen and (max-width: 768px) {
-  .header__pic {
-    padding-left: 1.8rem;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -335,7 +341,6 @@ p {
 .hamburger {
   width: 25px;
   height: 22px;
-  padding-right: 33px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
