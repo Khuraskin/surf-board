@@ -3,7 +3,6 @@
 $color_text__header: #ffffff;
 
 .wrapper {
-
   & {
     width: 100%;
     min-height: 100%;
@@ -11,7 +10,8 @@ $color_text__header: #ffffff;
   }
 
   &__fon {
-    background: url("../../img/head/arnaud-mesureur-17OxKyThYPo-unsplash.png") center top no-repeat;
+    background: url("../../img/head/arnaud-mesureur-17OxKyThYPo-unsplash.png")
+      center top no-repeat;
     background-size: cover;
     margin-bottom: 6.4rem;
     min-height: 100vh;
@@ -27,11 +27,18 @@ $color_text__header: #ffffff;
 
   &__fon {
     @include phone {
-      background: url("../img/head/480__px/arnaud-mesureur.png") center top no-repeat;
+      background: url("../img/head/480__px/arnaud-mesureur.png") center top
+        no-repeat;
     }
   }
+}
 
-
+.container {
+  width: 95%;
+  max-width: 100%;
+  max-width: 59rem;
+  margin: 0 auto;
+  position: relative;
 }
 
 .head {
@@ -53,6 +60,13 @@ $color_text__header: #ffffff;
     }
   }
 
+  &__color {
+    @include tablet {
+      max-height: 5.6rem;
+      background-color: #1968b1;
+      margin-bottom: 15rem;
+    }
+  }
 }
 
 .header {
@@ -69,7 +83,6 @@ $color_text__header: #ffffff;
 
   &__master {
     @include tablet {
-      background-color: #1968b1;
       height: 5.6rem;
       margin-bottom: 15rem;
     }
@@ -77,24 +90,15 @@ $color_text__header: #ffffff;
 
   &__master {
     @include phone {
-      background-color: #1968b1;
       height: 5.6rem;
-      margin-bottom: 15rem;
-      
+      margin-bottom: 9rem;
     }
   }
 
   &__pic {
     width: 3.4rem;
     height: 2.4rem;
-  
-    & {
-      @include tablet {
-        padding-left: 1.8rem;
-      }
-    }
   }
-
 }
 
 .menu {
@@ -171,9 +175,11 @@ $color_text__header: #ffffff;
 }
 
 .hero {
-  width: 41rem;
-  display: flex;
-  flex-direction: column;
+  & {
+    max-width: 41rem;
+    display: flex;
+    flex-direction: column;
+  }
 
   &__section {
     display: flex;
@@ -186,14 +192,17 @@ $color_text__header: #ffffff;
     }
   }
 
+  &__block {
+    max-width: 46%;
+    margin-bottom: 3rem;
+  }
+
   &__title {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.1;
     color: $color_text__header;
     text-transform: uppercase;
-    margin-bottom: 3rem;
-    max-width: 46%;
   }
 
   &__title {
@@ -203,7 +212,6 @@ $color_text__header: #ffffff;
       display: flex;
       justify-content: center;
       margin-bottom: 0.1rem;
-      
     }
   }
 
@@ -216,7 +224,6 @@ $color_text__header: #ffffff;
       text-align: center;
       display: flex;
       justify-content: center;
-      
     }
   }
 
