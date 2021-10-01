@@ -494,6 +494,12 @@ p {
     display: flex;
   }
 }
+.features__link {
+  padding-right: 3.3rem;
+}
+.features__link:last-child {
+  padding: 0;
+}
 .features__intermediate__icon {
   position: absolute;
   width: 4.3rem;
@@ -548,7 +554,7 @@ p {
   height: 4.2rem;
 }
 @media screen and (max-width: 480px) {
-  .features__titles {
+  .features__item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
