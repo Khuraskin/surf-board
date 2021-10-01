@@ -143,12 +143,12 @@ p {
 }
 @media screen and (max-width: 768px) {
   .head {
-    padding: 0 0 4.3rem 0;
+    padding: 0 0 17rem 0;
   }
 }
 @media screen and (max-width: 480px) {
   .head {
-    padding: 0 0 4.3rem 0;
+    padding: 0 0 10rem 0;
   }
 }
 
