@@ -705,6 +705,15 @@ p {
           justify-content: space-between;
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .command__photo--non {
+    display: none;
+  }
+}
+.command__logo {
+  max-width: 13.8rem;
+  max-height: 18rem;
+}
 .command__block {
   display: -webkit-box;
   display: -ms-flexbox;
