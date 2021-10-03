@@ -705,11 +705,11 @@ p {
           justify-content: space-between;
   margin-bottom: 4rem;
 }
-.command__full__full:last-child {
-  padding-right: 0;
-}
-.command___list {
-  padding-right: 1.2rem;
+.command__profession {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .command__profession {
   display: -webkit-box;
@@ -723,26 +723,23 @@ p {
   color: #292929;
   text-align: center;
 }
-.command__name__name::after {
+.command__name--after::after {
   content: url("../img/icon/Polygon_top.png");
   margin-left: 0.25rem;
   width: 0.6rem;
   height: 0.6rem;
 }
-.command__name__name--after::after {
-  content: url("../img/icon/Polygon_bottom.png");
-}
-
-.profession__list {
+.command__item {
   text-align: center;
+  max-width: 13.75rem;
 }
-.profession__title {
+.command__link {
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.2;
   color: #292929;
 }
-.profession__subtitle {
+.command__craft {
   font-size: 1.1rem;
   font-weight: 300;
   line-height: 1.2;
