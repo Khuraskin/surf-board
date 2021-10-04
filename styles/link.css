@@ -92,6 +92,13 @@ p {
     max-width: 100%;
   }
 }
+@media screen and (max-width: 375px) {
+  .wrapper__fon {
+    background: url("../img/head/375_px/arnaud-mesureur.jpg") center top no-repeat;
+    min-height: 100vh;
+    max-width: 100%;
+  }
+}
 
 .container {
   width: 95%;
@@ -147,6 +154,22 @@ p {
     display: flex;
     background-color: #1968b1;
     height: 3.1rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0.4rem 1.4rem 0.4rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .head__tablet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #1968b1;
+    height: 4.1rem;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
