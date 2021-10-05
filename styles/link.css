@@ -1071,7 +1071,7 @@ p {
 .form {
   min-height: 100vh;
 }
-.form__fon {
+.form {
   background: url("../img/form/cta.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -1342,6 +1342,25 @@ p {
   background: url("../img/icon/check.png") center center no-repeat;
   width: 0.6rem;
   height: 0.5rem;
+}
+
+.footer__vk {
+  fill: #B3B3B3;
+}
+.footer__facebook {
+  fill: #B3B3B3;
+}
+.footer__svg {
+  fill: #B3B3B3;
+}
+
+.map__ {
+  min-height: 100vh;
+}
+.map__svg {
+  background: url("../../img/footer/f9666f50f7f2f52f633a1b747a6ce5a3.png") center no-repeat;
+  max-width: 100%;
+  background-size: cover;
 }
 
 .sidebar {
