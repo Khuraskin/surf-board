@@ -589,6 +589,21 @@ p {
   margin-right: 0;
 }
 @media screen and (max-width: 480px) {
+  .features__link {
+    margin-right: 3.3rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .features__link {
+    margin-right: 3.3rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .features__link {
+    margin-right: 3.3rem;
+  }
+}
+@media screen and (max-width: 480px) {
   .features__content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1358,6 +1373,10 @@ p {
   height: 0.8rem;
   width: 0.8rem;
   cursor: pointer;
+}
+.footer__link {
+  width: 1.2rem;
+  height: 1.2rem;
 }
 .footer__vk {
   fill: #b3b3b3;
