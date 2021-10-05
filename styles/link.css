@@ -1401,7 +1401,7 @@ p {
   fill: #FEDB3F;
 }
 .map__svg {
-  background: url("../../img/footer/map.png") no-repeat;
+  background: url("../img/footer/map.png") no-repeat;
   max-width: 100%;
   background-size: cover;
   min-height: 100VH;
