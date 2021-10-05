@@ -338,27 +338,25 @@ p {
     display: none;
   }
 }
-.contacts__tel {
+.contacts__tel--header {
   font-size: 1.3rem;
   font-weight: 800;
   line-height: 1.2;
   text-decoration: none;
   color: #ffffff;
 }
-.contacts__tel:hover {
+.contacts__tel--header:hover {
   background: -webkit-gradient(linear, right top, left top, from(#00bfff));
   background: linear-gradient(to left, #00bfff);
   background-position: bottom;
   background-size: 100% 0.01rem;
   background-repeat: repeat-x;
 }
-
 @media screen and (max-width: 768px) {
-  .contacts__tel {
+  .contacts__tel--header {
     display: none;
   }
 }
-
 @media screen and (max-width: 768px) {
   .contacts__pic {
     display: none;
@@ -1344,14 +1342,40 @@ p {
   height: 0.5rem;
 }
 
+.footer__title {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #292929;
+}
+.footer__adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer__phone {
+  fill: #292929;
+  height: 0.8rem;
+  width: 0.8rem;
+  cursor: pointer;
+}
 .footer__vk {
-  fill: #B3B3B3;
+  fill: #b3b3b3;
 }
 .footer__facebook {
-  fill: #B3B3B3;
+  fill: #b3b3b3;
 }
 .footer__svg {
-  fill: #B3B3B3;
+  fill: #b3b3b3;
+}
+
+.contacts__tel--footer {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #292929;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .map__ {
