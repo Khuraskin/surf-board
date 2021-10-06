@@ -81,7 +81,6 @@ p {
 @media screen and (max-width: 768px) {
   .wrapper__fon {
     background: url("../img/head/768_px/arnaud-mesureur.png") center top no-repeat;
-    background-size: cover;
     min-height: 100vh;
     max-width: 100%;
   }
@@ -132,6 +131,12 @@ p {
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
+}
+.head__icon {
+  width: 3.4rem;
+  height: 2.4rem;
+  cursor: pointer;
+  fill: #ffffff;
 }
 @media screen and (max-width: 768px) {
   .head__tablet {
@@ -234,7 +239,7 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 23rem;
+    margin-bottom: 18rem;
   }
 }
 @media screen and (max-width: 480px) {
@@ -280,15 +285,6 @@ p {
   height: 2.4rem;
   cursor: pointer;
   fill: #ffffff;
-}
-.header__pic {
-  width: 3.4rem;
-  height: 2.4rem;
-}
-@media screen and (max-width: 768px) {
-  .header__pic {
-    padding-left: 1.8rem;
-  }
 }
 
 @media screen and (max-width: 768px) {
