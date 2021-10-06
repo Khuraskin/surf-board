@@ -753,6 +753,7 @@ p {
 .options {
   background: #f8faf9;
   margin-bottom: 4.1rem;
+  min-height: 100vh;
 }
 .options__model {
   display: -webkit-box;
@@ -1084,13 +1085,10 @@ p {
 }
 
 .form {
-  min-height: 100vh;
-}
-.form {
   background: url("../img/form/cta.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  height: 59.5rem;
+  min-height: 100vh;
 }
 .form__title {
   padding-top: 6.8rem;
@@ -1361,6 +1359,7 @@ p {
 
 .footer {
   position: absolute;
+  bottom: 0;
   width: 100%;
   background-color: #FFFFFF;
 }
