@@ -69,6 +69,8 @@ p {
   width: 100%;
   min-height: 100%;
   overflow: hidden;
+  position: relative;
+  margin-bottom: 1.75rem;
 }
 .wrapper__fon {
   background: url("../img/head/arnaud-mesureur-17OxKyThYPo-unsplash.png") center top no-repeat;
@@ -1357,6 +1359,11 @@ p {
   height: 0.5rem;
 }
 
+.footer {
+  position: absolute;
+  width: 100%;
+  background-color: #FFFFFF;
+}
 .footer__title {
   font-size: 1.3rem;
   font-weight: 400;
@@ -1374,17 +1381,23 @@ p {
   width: 0.8rem;
   cursor: pointer;
 }
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
 .footer__link {
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  padding-left: 1.8rem;
 }
-.footer__vk {
-  fill: #b3b3b3;
+.footer__svg--black {
+  fill: black;
 }
-.footer__facebook {
-  fill: #b3b3b3;
-}
-.footer__svg {
+.footer__svg--gray {
   fill: #b3b3b3;
 }
 
