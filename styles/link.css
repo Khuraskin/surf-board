@@ -1296,6 +1296,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 5rem;
 }
 @media screen and (max-width: 768px) {
   .buttons {
@@ -1407,8 +1408,8 @@ p {
   padding-right: 0;
 }
 .footer__size {
-  width: 1.8rem;
-  height: 1.8rem;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 .footer__svg--black {
   fill: black;
