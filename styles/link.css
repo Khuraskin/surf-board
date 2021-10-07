@@ -762,6 +762,9 @@ p {
   padding-top: 3.5rem;
   width: 27.7rem;
 }
+.options__fon::after {
+  background: url("../../img/icon/");
+}
 .options__fon {
   height: 23.6rem;
   background: url("../img/offers/vector_surf.png") no-repeat;
