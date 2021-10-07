@@ -1,25 +1,25 @@
 /*link*/
 html {
-  font-size: 18px;
+  font-size: 20px;
 }
 @media screen and (max-width: 768px) {
   html {
-    font-size: 17px;
+    font-size: 19px;
   }
 }
 @media screen and (max-width: 480px) {
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 375px) {
   html {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 320px) {
   html {
-    font-size: 11px;
+    font-size: 13px;
   }
 }
 
@@ -112,31 +112,18 @@ p {
 .head {
   padding: 1.5rem 0 4.3rem 0;
 }
-.head__wrapper {
-  margin: 0 auto;
-}
-.head__link {
-  display: none;
-}
 @media screen and (max-width: 768px) {
-  .head__link {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
+  .head {
+    padding: 0 0 17rem 0;
   }
 }
 @media screen and (max-width: 480px) {
-  .head__link {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
+  .head {
+    padding: 0 0 10rem 0;
   }
 }
-.head__icon {
-  width: 3.4rem;
-  height: 2.4rem;
-  cursor: pointer;
-  fill: #ffffff;
+.head__wrapper {
+  margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
   .head__tablet {
@@ -202,15 +189,28 @@ p {
             align-items: center;
   }
 }
+.head__link {
+  display: none;
+}
 @media screen and (max-width: 768px) {
-  .head {
-    padding: 0 0 17rem 0;
+  .head__link {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
   }
 }
 @media screen and (max-width: 480px) {
-  .head {
-    padding: 0 0 10rem 0;
+  .head__link {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
   }
+}
+.head__icon {
+  width: 3.4rem;
+  height: 2.4rem;
+  cursor: pointer;
+  fill: #ffffff;
 }
 
 .header {
@@ -870,14 +870,20 @@ p {
           justify-content: space-between;
   text-align: center;
 }
+.command__hero {
+  padding-right: 1.25rem;
+}
+.command__hero:last-child {
+  padding: 0;
+}
 @media screen and (max-width: 768px) {
   .command__photo--non {
     display: none;
   }
 }
 .command__logo {
-  max-width: 13.8rem;
-  max-height: 18rem;
+  width: 13.8rem;
+  height: 18rem;
 }
 .command__block {
   display: -webkit-box;
