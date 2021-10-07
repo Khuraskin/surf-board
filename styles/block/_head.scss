@@ -1,0 +1,396 @@
+//head
+
+$color_text__header: #ffffff;
+
+.wrapper {
+
+  & {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  &__fon {
+    background: url("../img/head/arnaud-mesureur-17OxKyThYPo-unsplash.png")
+      center top no-repeat;
+    background-size: cover;
+    margin-bottom: 6.4rem;
+    min-height: 100vh;
+    max-width: 100%;
+  }
+
+  &__fon {
+    @include tablet {
+      background: url("../img/head/768_px/arnaud-mesureur.png") center top
+        no-repeat;
+      min-height: 100vh;
+      max-width: 100%;
+    }
+  }
+
+  &__fon {
+    @include phone {
+      background: url("../img/head/480__px/arnaud-mesureur.png") center top
+        no-repeat;
+      min-height: 100vh;
+      max-width: 100%;
+    }
+  }
+
+  &__fon {
+    @include phone-average {
+      background: url("../img/head/375_px/arnaud-mesureur.png") center top
+        no-repeat;
+      margin-bottom: 0;
+      min-height: 100vh;
+      max-width: 100%;
+    }
+  }
+}
+
+.container {
+  width: 95%;
+  max-width: 100%;
+  max-width: 59rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.head {
+  padding: 1.5rem 0 4.3rem 0;
+
+  &__wrapper {
+    margin: 0 auto;
+  }
+
+  &__link {
+    display: none;
+
+    & {
+      @include tablet {
+        display: inline-flex;
+      }
+    }
+
+    & {
+      @include phone {
+        display: inline-flex;
+      }
+    }
+  }
+ 
+
+  &__tablet {
+    @include tablet {
+      display: flex;
+      background-color: #1968b1;
+      height: 3.1rem;
+      justify-content: space-between;
+      padding: 0.4rem 1.4rem 0.4rem;
+      align-items: center;
+    }
+  }
+
+  &__tablet {
+    @include phone {
+      display: flex;
+      background-color: #1968b1;
+      height: 3.1rem;
+      justify-content: space-between;
+      padding: 0.4rem 1.4rem 0.4rem;
+      align-items: center;
+    }
+  }
+
+  &__tablet {
+    @include phone-average {
+      display: flex;
+      background-color: #1968b1;
+      height: 4.1rem;
+      justify-content: space-between;
+      padding: 0.4rem 1.4rem 0.4rem;
+      align-items: center;
+    }
+  }
+
+  &__tablet {
+    @include phone-small {
+      display: flex;
+      background-color: #1968b1;
+      height: 5.1rem;
+      justify-content: space-between;
+      padding: 0.4rem 1.4rem 0.4rem;
+      align-items: center;
+    }
+  }
+
+  & {
+    @include tablet {
+      padding: 0 0 17rem 0;
+    }
+  }
+
+  & {
+    @include phone {
+      padding: 0 0 10rem 0;
+    }
+  }
+ 
+}
+
+.header {
+  & {
+    position: relative;
+  }
+
+  &__master {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+
+  &__master {
+    @include tablet {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18rem;
+    }
+  }
+
+  &__master {
+    @include phone {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 13rem;
+    }
+  }
+
+  &__master {
+    @include phone-small {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 26rem;
+    }
+  }
+
+  &__logo {
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &__logo {
+    @include phone {
+      display: none;
+    }
+  }
+
+  &__icon {
+    width: 3.4rem;
+    height: 2.4rem;
+    cursor: pointer;
+    fill: #ffffff;   
+  }
+  
+}
+
+.menu {
+  @include tablet {
+    display: none;
+  }
+}
+
+.menu {
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    margin-right: 1.3rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: $color_text__header;
+
+    &:hover {
+      background: linear-gradient(to left, #00bfff);
+      background-position: bottom;
+      background-size: 100% 0.1rem;
+      background-repeat: repeat-x;
+    }
+  }
+}
+
+.contacts {
+  & {
+    display: flex;
+  }
+
+  &__phone {
+    margin: auto;
+    width: 0.8rem;
+    height: 0.8rem;
+    fill: #ffffff;
+  }
+
+  &__phone {
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &__tel--header {
+    font-size: 1.3rem;
+    font-weight: 800;
+    line-height: 1.2;
+    text-decoration: none;
+    color: $color_text__header;
+
+    &:hover {
+      background: linear-gradient(to left, #00bfff);
+      background-position: bottom;
+      background-size: 100% 0.01rem;
+      background-repeat: repeat-x;
+    }
+  }
+  &__tel--header {
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &__pic {
+    @include tablet {
+      display: none;
+    }
+  }
+}
+
+.hero {
+  & {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__block {
+    max-width: 46%;
+    margin-bottom: 3rem;
+  }
+
+  &__title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: $color_text__header;
+    text-transform: uppercase;
+    max-width: 50%;
+  }
+
+  &__title {
+    @include tablet {
+      max-width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 0.1rem;
+    }
+  }
+
+  &__title {
+    @include phone {
+      max-width: 100%;
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 1;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__subtitle {
+    font-size: 1.3rem;
+    font-style: 400;
+    line-height: 1.2;
+    color: $color_text__header;
+    margin-bottom: 6.3rem;
+  }
+
+  &__subtitle {
+    @include tablet {
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 2.75rem;
+    }
+  }
+
+  &__button {
+    display: flex;
+    margin-bottom: 7.9rem;
+  }
+
+  &__button {
+    @include tablet {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__offer {
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &__main {
+    display: flex;
+  }
+
+  &__list {
+    width: 8.8rem;
+    display: flex;
+    margin-right: 2rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__pic {
+    width: 3.1rem;
+    height: 2.1rem;
+    fill: #ffffff;
+  }
+
+  &__pic--padding {
+    padding-top: 0.4rem;
+  }
+
+  &__link {
+    display: inline;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: $color_text__header;
+    padding-left: 0.8rem;
+  }
+}

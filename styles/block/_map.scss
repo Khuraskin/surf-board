@@ -1,0 +1,22 @@
+//map
+
+.map {
+
+  & {
+    min-height: 100vh;
+    margin-bottom: 1.75rem;
+  }
+
+    &__pic {
+        fill: #FEDB3F;
+    }
+
+  &__svg {
+    background: url("../img/footer/map.png") no-repeat;
+      max-width: 100%;
+      background-size: cover;
+      min-height: 100VH;
+    
+  }
+}
+

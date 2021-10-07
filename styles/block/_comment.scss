@@ -1,0 +1,91 @@
+//comment
+
+.comment {
+  & {
+    margin-bottom: 0.9rem;
+    min-height: 100vh;
+  }
+
+  &__reviews {
+    margin-bottom: 2rem;
+  }
+
+  &__recall {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #292929;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__main {
+    display: flex;
+    padding: 2.6rem;
+    
+   
+  }
+  &__main {
+
+    @include tablet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    }
+
+  }
+
+  &__pic {
+    width: 15.8rem;
+    height: 16.5rem;
+  }
+
+  &__pic {
+    @include tablet {
+      width: 8rem;
+      height: 8rem;
+    }
+  }
+
+  &__title {
+    padding: 2.3rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text {
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #292929;
+  }
+
+  &__subtitle {
+    padding-top: 0.9rem;
+    max-width: 29rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #666666;
+  }
+
+  &__name {
+    padding-top: 25px;
+  }
+
+  &__surname {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #292929;
+  }
+}
+
+.container {
+  &__comment--gray {
+    background-color: #f8faf9;
+    margin-bottom: 0.9rem;
+  }
+}

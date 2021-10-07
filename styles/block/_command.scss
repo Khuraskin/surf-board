@@ -1,0 +1,77 @@
+/*Command*/
+
+.command {
+  & {
+    min-height: 100vh;
+  }
+
+  &__title {
+    margin-bottom: 3.3rem;
+  }
+
+  &__subtitle {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: #292929;
+    text-align: center;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  &__photo--non {
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &__logo {
+    max-width: 13.8rem;
+    max-height: 18rem;
+  }
+
+  
+
+  &__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &__name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #292929;
+  }
+
+  &__arrow {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  &__profession {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.1;
+    color:#292929;
+  }
+
+
+  &__text {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #666666;
+    text-align: center;    
+  }
+
+
+
+}

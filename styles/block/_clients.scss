@@ -1,0 +1,23 @@
+//clients
+
+.clients {
+  &__list {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__info {
+    padding-right: 0.4rem;
+
+    &__info:last-child {
+      padding-right: 0;
+    }
+  } 
+
+  &__pic {
+    width: 4.6rem;
+    height: 4.6rem;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+}

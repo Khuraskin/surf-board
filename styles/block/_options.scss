@@ -1,0 +1,101 @@
+//options
+
+.options {
+
+    & {
+      background: #f8faf9;
+      margin-bottom: 4.1rem;
+      min-height: 100vh;
+    } 
+  
+    &__model {
+      display: flex;
+      padding: 3.2rem 0 6.5rem 5.8rem;
+      position: relative;
+    }
+  
+    &__pic {
+      padding-right: 5rem;
+      padding-top: 3.5rem;
+      width: 27.7rem;
+    }
+
+    &__fon::after{
+      background: url("../../img/icon/");
+
+    }
+  
+    &__fon {
+      height: 23.6rem;
+      background: url("../img/offers/vector_surf.png") no-repeat;
+    }
+  
+    &__img {
+      position: absolute;
+      top: 3.3rem;
+    }
+
+    &__offers{
+        display: flex;
+        flex-direction: column;
+    }
+     
+    &__item {
+      background-color: #3a587e;
+      width: 5.6rem;
+      height: 5.6rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    &__choice {
+      font-size: 0.8rem;
+      font-weight: 700;
+      line-height: 1.2;
+      color: #ffffff;
+    }
+
+    &__title {
+        font-size: 2.2rem;
+        font-weight: 700;
+        line-height: 1.2;
+        text-transform: uppercase;
+        color: #292929;
+    }
+
+    &__subtitle {
+        font-size: 1.1rem;
+        font-weight: 400;
+        line-height: 1.2;
+        color: #666666;
+        margin-bottom: 1.4rem;
+    }
+
+    &__hero {
+        display: flex;
+    }
+
+    &__length {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #666666;
+    padding-right: 3.2rem;
+    }
+
+    &__size {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000000;
+    padding-right: 3.2rem;
+    }
+
+    &__order {
+        display: flex;
+        align-items: center;
+    }
+  }
+  

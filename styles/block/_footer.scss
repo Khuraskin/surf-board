@@ -1,0 +1,72 @@
+//footer
+
+.footer {
+  & {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+  }
+
+  &__city {
+    @include phone {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__title {
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #292929;
+  }
+
+  &__adress {
+    display: flex;
+  }
+
+  &__phone {
+    fill: #292929;
+    height: 0.8rem;
+    width: 0.8rem;
+    cursor: pointer;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: end;
+  }
+
+  &__link {
+    padding-right: 0.8rem;
+  }
+
+  &__link:last-child {
+    padding-right: 0;
+  }
+
+  &__size {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  &__svg--black {
+    fill: black;
+  }
+
+  &__svg--gray {
+    fill: #b3b3b3;
+    
+  }
+}
+
+.contacts__tel--footer {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #292929;
+  text-decoration: none;
+  cursor: pointer;
+}
