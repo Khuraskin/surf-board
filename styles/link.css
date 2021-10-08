@@ -588,17 +588,32 @@ p {
 }
 @media screen and (max-width: 480px) {
   .features__link {
-    margin-right: 3.3rem;
+    margin-right: 2.5rem;
   }
 }
 @media screen and (max-width: 375px) {
   .features__link {
-    margin-right: 3.3rem;
+    margin-right: 2.5rem;
   }
 }
 @media screen and (max-width: 320px) {
   .features__link {
-    margin-right: 3.3rem;
+    margin-right: 2.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .features__link:last-child {
+    margin-right: 2.5rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .features__link:last-child {
+    margin-right: 2.5rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .features__link:last-child {
+    margin-right: 2.5rem;
   }
 }
 @media screen and (max-width: 480px) {
