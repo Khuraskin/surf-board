@@ -513,6 +513,7 @@ p {
   background-color: #fff;
   height: 3px;
   border-radius: 12px;
+  text-decoration: none;
 }
 
 .btn {
@@ -582,6 +583,7 @@ p {
 }
 .features__link {
   margin-right: 3.3rem;
+  padding-bottom: 1.2rem;
 }
 .features__link:last-child {
   margin-right: 0;
@@ -657,7 +659,6 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 1.2rem;
 }
 .features__img {
   background-color: #f2f5f4;
@@ -1066,7 +1067,7 @@ p {
 .clients__info {
   padding-right: 0.4rem;
 }
-.clients__info__info:last-child {
+.clients__info:last-child {
   padding-right: 0;
 }
 .clients__pic {
@@ -1151,6 +1152,7 @@ p {
 }
 .form__block {
   margin-right: 1.7rem;
+  width: 100%;
 }
 .form__block:last-child {
   margin-right: 0rem;
@@ -1160,39 +1162,19 @@ p {
     margin-right: 0;
   }
 }
-.form__info {
+.form__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 0.6rem;
+  margin-bottom: 2.25rem;
 }
 .form__data {
   margin-right: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 .form__data:last-child {
-  margin-right: 0;
-}
-.form__text {
-  border: none;
-}
-.form__street {
-  margin-bottom: 0.7rem;
-}
-.form__input {
-  border: none;
-}
-.form__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.form__item {
-  border: none;
-}
-.form__fill {
-  margin-right: 0.8rem;
-}
-.form__fill:last-child {
   margin-right: 0;
 }
 .form__name, .form__phone, .form__str, .form__hous, .form__housing, .form__room, .form__level {
@@ -1201,12 +1183,9 @@ p {
   line-height: 1.2;
   color: #fff;
 }
-.form__info--title {
-  margin-bottom: 2.3rem;
-}
 .form__text {
-  width: 13.3rem;
-  height: 3.6rem;
+  width: 100%;
+  height: 100%;
   padding-left: 0.7rem;
 }
 @media screen and (max-width: 768px) {
@@ -1214,28 +1193,8 @@ p {
     height: 2.2rem;
   }
 }
-.form__input {
-  width: 27.6rem;
-  height: 3.6rem;
-  padding-left: 0.7rem;
-}
-@media screen and (max-width: 768px) {
-  .form__input {
-    height: 2.2rem;
-  }
-}
-.form__item {
-  width: 6.3rem;
-  height: 3.6rem;
-  padding-left: 0.7rem;
-}
-@media screen and (max-width: 768px) {
-  .form__item {
-    height: 2.2rem;
-  }
-}
 .form__insert--wishes {
-  width: 28rem;
+  width: 100%;
   height: 9.5rem;
   resize: none;
 }
@@ -1452,6 +1411,7 @@ p {
 .map {
   min-height: 100vh;
   margin-bottom: 1.75rem;
+  position: relative;
 }
 .map__pic {
   fill: #FEDB3F;
