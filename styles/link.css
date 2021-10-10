@@ -816,7 +816,14 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.options__svg {
+  fill: #ffffff;
+  width: 2.3rem;
+  height: 2.3rem;
 }
 .options__choice {
   font-size: 0.8rem;
