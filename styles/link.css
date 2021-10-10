@@ -216,6 +216,7 @@ p {
 }
 
 .header {
+  padding: 1.5rem 0 4.3rem 0;
   position: relative;
 }
 .header__master {
