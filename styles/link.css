@@ -533,7 +533,7 @@ p {
 
 .features {
   margin-bottom: 3rem;
-  min-height: 100vh;
+  height: 100vh;
 }
 .features__info {
   display: -webkit-box;
@@ -759,7 +759,7 @@ p {
 .options {
   background: #f8faf9;
   margin-bottom: 4.1rem;
-  min-height: 100vh;
+  height: 100vh;
 }
 .options__arrow--left {
   width: 0.8rem;
@@ -886,7 +886,7 @@ p {
 
 /*Command*/
 .command {
-  min-height: 100vh;
+  height: 100vh;
 }
 .command__title {
   margin-bottom: 3.3rem;
@@ -963,7 +963,7 @@ p {
   background: url("../img/choice/Main_choice.jpg") center no-repeat;
   height: 40.7rem;
   margin-bottom: 3.6rem;
-  min-height: 100vh;
+  height: 100vh;
 }
 .choice__text {
   font-size: 3rem;
@@ -991,7 +991,7 @@ p {
 
 .comment {
   margin-bottom: 0.9rem;
-  min-height: 100vh;
+  height: 100vh;
 }
 .comment__reviews {
   margin-bottom: 2rem;
@@ -1110,7 +1110,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 100vh;
+  height: 100vh;
 }
 .work__title {
   padding-top: 3.8rem;
@@ -1130,7 +1130,7 @@ p {
   background: url("../img/form/cta.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  min-height: 100vh;
+  height: 100vh;
 }
 .form__title {
   padding-top: 6.8rem;
@@ -1430,7 +1430,7 @@ p {
 }
 
 .map {
-  min-height: 100vh;
+  height: 100vh;
   margin-bottom: 1.75rem;
   position: relative;
 }
@@ -1441,7 +1441,7 @@ p {
   background: url("../img/footer/map.png") no-repeat;
   max-width: 100%;
   background-size: cover;
-  min-height: 100VH;
+  height: 100VH;
 }
 
 .sidebar {
