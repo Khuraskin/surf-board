@@ -76,7 +76,7 @@ p {
   background-size: cover;
   margin-bottom: 6.4rem;
   height: 100vh;
-  min-height: 60rem;
+  min-height: 41rem;
   max-width: 100%;
 }
 @media screen and (max-width: 768px) {
@@ -230,7 +230,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 12rem;
+  margin-bottom: 7rem;
 }
 @media screen and (max-width: 768px) {
   .header__master {
@@ -290,15 +290,6 @@ p {
   cursor: pointer;
   fill: #ffffff;
 }
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
 .header__section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -307,6 +298,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 4rem;
 }
 .header__block {
   max-width: 46%;
@@ -319,7 +311,6 @@ p {
   color: #ffffff;
   text-transform: uppercase;
   max-width: 50%;
-  margin-bottom: 1rem;
 }
 @media screen and (max-width: 768px) {
   .header__title {
@@ -354,7 +345,7 @@ p {
   font-style: 400;
   line-height: 1.2;
   color: #ffffff;
-  margin-bottom: 6.3rem;
+  margin-bottom: 2.5rem;
 }
 @media screen and (max-width: 768px) {
   .header__subtitle {
@@ -367,7 +358,6 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 7.9rem;
 }
 @media screen and (max-width: 768px) {
   .header__button {
