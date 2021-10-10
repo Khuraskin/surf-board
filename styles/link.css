@@ -770,30 +770,31 @@ p {
   margin-bottom: 4.1rem;
   min-height: 100vh;
 }
-.options__model {
+.options__arrow--left {
+  width: 0.8rem;
+  height: 1.7rem;
+}
+.options__arrow--right {
+  width: 0.8rem;
+  height: 1.7rem;
+}
+.options__arrow {
+  stroke: #000000;
+  stroke-width: 2;
+  stroke-linecap: round;
+  fill: none;
+}
+.options__hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 3.2rem 0 6.5rem 5.8rem;
-  position: relative;
-}
-.options__pic {
-  padding-right: 5rem;
-  padding-top: 3.5rem;
-  width: 27.7rem;
-}
-.options__fon::after {
-  background: url("../img/icon/");
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 .options__fon {
-  height: 23.6rem;
-  background: url("../img/offers/vector_surf.png") no-repeat;
+  background: url("../img/offers/vector_surf.png") no-repeat center;
 }
-.options__img {
-  position: absolute;
-  top: 3.3rem;
-}
-.options__offers {
+.options__info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -801,6 +802,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  max-width: 23rem;
 }
 .options__item {
   background-color: #3a587e;
@@ -819,6 +821,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 3.2rem;
 }
 .options__svg {
   fill: #ffffff;
@@ -831,6 +834,9 @@ p {
   line-height: 1.2;
   color: #ffffff;
 }
+.options__data {
+  margin-bottom: 1.5rem;
+}
 .options__title {
   font-size: 2.2rem;
   font-weight: 700;
@@ -842,27 +848,38 @@ p {
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.2;
+  margin-bottom: 1.5rem;
   color: #666666;
-  margin-bottom: 1.4rem;
 }
 .options__hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 1.5rem;
+}
+.options__list {
+  padding-right: 3.2rem;
+}
+.options__list:last-child {
+  padding: 0;
 }
 .options__length {
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.2;
   color: #666666;
-  padding-right: 3.2rem;
 }
 .options__size {
   font-size: 1.1rem;
   font-weight: 700;
   line-height: 1.2;
   color: #000000;
-  padding-right: 3.2rem;
+}
+.options__model {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
 }
 .options__order {
   display: -webkit-box;
@@ -871,6 +888,9 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 /*Command*/
