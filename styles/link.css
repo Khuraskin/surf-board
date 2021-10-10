@@ -75,13 +75,13 @@ p {
   background: url("../img/head/arnaud-mesureur-17OxKyThYPo-unsplash.png") center top no-repeat;
   background-size: cover;
   margin-bottom: 6.4rem;
-  min-height: 100vh;
+  height: 100vh;
   max-width: 100%;
 }
 @media screen and (max-width: 768px) {
   .wrapper__fon {
     background: url("../img/head/768_px/arnaud-mesureur.png") center top no-repeat;
-    min-height: 100vh;
+    height: 100vh;
     max-width: 100%;
     background-size: cover;
   }
@@ -89,7 +89,7 @@ p {
 @media screen and (max-width: 480px) {
   .wrapper__fon {
     background: url("../img/head/480__px/arnaud-mesureur.png") center top no-repeat;
-    min-height: 100vh;
+    height: 100vh;
     max-width: 100%;
     background-size: cover;
   }
@@ -98,7 +98,7 @@ p {
   .wrapper__fon {
     background: url("../img/head/375_px/arnaud-mesureur.png") center top no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    height: 100vh;
     max-width: 100%;
   }
 }
@@ -589,6 +589,7 @@ p {
 }
 .features__link:last-child {
   margin-right: 0;
+  padding-bottom: 0;
 }
 @media screen and (max-width: 480px) {
   .features__link {
