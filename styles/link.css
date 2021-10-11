@@ -989,6 +989,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 5rem;
 }
 .options__buy {
   padding-right: 4.7rem;
