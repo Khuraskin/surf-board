@@ -258,7 +258,7 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 11rem;
+    margin-bottom: 17rem;
   }
 }
 @media screen and (max-width: 320px) {
@@ -272,7 +272,7 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 10rem;
+    margin-bottom: 21rem;
   }
 }
 @media screen and (max-width: 768px) {
