@@ -1334,6 +1334,9 @@ p {
   outline: 0;
   background-color: #ffffff;
 }
+.form__text:focus {
+  border-color: #9400d3;
+}
 @media screen and (max-width: 768px) {
   .form__text {
     height: 2.2rem;
@@ -1347,6 +1350,9 @@ p {
   border-radius: 0.3rem;
   outline: 0;
   background-color: #ffffff;
+}
+.form__insert--wishes:focus {
+  border-color: #9400d3;
 }
 @media screen and (max-width: 768px) {
   .form__insert--wishes {
