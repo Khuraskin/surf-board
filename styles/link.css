@@ -1566,6 +1566,13 @@ p {
   text-decoration: none;
   cursor: pointer;
 }
+.contacts__tel--footer:hover {
+  background: -webkit-gradient(linear, right top, left top, from(#00bfff));
+  background: linear-gradient(to left, #00bfff);
+  background-position: bottom;
+  background-size: 100% 0.1rem;
+  background-repeat: repeat-x;
+}
 
 .map {
   min-height: 100vh;
