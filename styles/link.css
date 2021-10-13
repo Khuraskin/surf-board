@@ -85,7 +85,8 @@ p {
     height: 100vh;
     min-height: 56.7rem;
     max-width: 100%;
-    background-size: cover;
+    background-size: contain;
+    margin-bottom: 16.8rem;
   }
 }
 @media screen and (max-width: 480px) {
@@ -93,15 +94,17 @@ p {
     background: url("../img/head/480__px/arnaud-mesureur.png") center top no-repeat;
     height: 100vh;
     max-width: 100%;
-    background-size: cover;
+    background-size: contain;
+    margin-bottom: 3.2rem;
   }
 }
 @media screen and (max-width: 375px) {
   .wrapper__fon {
     background: url("../img/head/375_px/arnaud-mesureur.png") center top no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 100vh;
     max-width: 100%;
+    margin-bottom: 1rem;
   }
 }
 
