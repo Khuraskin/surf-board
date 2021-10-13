@@ -29,7 +29,7 @@
                         </svg>
                     </a>
                 </div>
-                <div class="hamburger">
+                <div class="hamburger" id="hamburger">
                     <ul class="hamburger__menu">
                         <li class="hamburger__list">
                             <a class="hamburger__link" href="#"></a>
@@ -597,28 +597,35 @@
             </li>
         </ul>
     </div>
-    <div class="active--menu">
-        <ul class="active__item">
+    <div class="active">
+        <div class="active__list">
+            <a class="active__close" href="#">
+                <svg class="active__pic">
+                    <use class="active__svg" xlink:href="./styles/sprite.svg#close"></use>
+                </svg>
+            </a>
+        </div>       
+        <ul class="active__menu">
             <li class="active__item">
-                <a class="active__link--menu" href="#"></a>
+                <a class="active__link" href="#">О нас</a>
             </li>
             <li class="active__item">
-                <a class="active__link--surf" href="#"></a>
+                <a class="active__link" href="#">Серфборды</a>
             </li>
             <li class="active__item">
-                <a class="active__link--command" href="#"></a>
+                <a class="active__link" href="#">Команда</a>
             </li>
             <li class="active__item">
-                <a class="active__link--menu" href="#"></a>
+                <a class="active__link" href="#">Меню</a>
             </li>
             <li class="active__item">
-                <a class="active__link--reviews" href="#"></a>
+                <a class="active__link" href="#">Отзывы</a>
             </li>
             <li class="active__item">
-                <a class="active__link--working" href="#"></a>
+                <a class="active__link" href="#">Как мы работаем</a>
             </li>
             <li class="active__item">
-                <a class="active__link--contacts" href="#"></a>
+                <a class="active__link" href="#">Контакты</a>
             </li>
         </ul>
     </div>
