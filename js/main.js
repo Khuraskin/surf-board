@@ -1,12 +1,12 @@
 var modalOpen = document.getElementById(".hamburger"),
  modal = document.getElementById(".active"),
- modalclose = document.querySelector(".active__close");
+ modalClose = document.querySelector(".active__close");
 
  modalOpen.onclick = function() {
      modal.style.dysplay="block";
  };
 
- modalclose.onclick = function () {
+ modalClose.onclick = function () {
     modal.style.dysplay="none";
 
  }
