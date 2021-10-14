@@ -1633,7 +1633,9 @@ p {
   width: 48rem;
   border-radius: 5px;
   color: #fff;
+  position: absolute;
   display: none;
+  top: 100%;
 }
 .active__list {
   display: inline-block;
