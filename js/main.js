@@ -8,10 +8,13 @@
     console.log(clickModal);
 }
 
+closeModal.onclick = function () {
+    modal.style.display="none";
+
+ }
+
 window.onclick = function (e) {
     if(e.target == modal) {
-       modal.style.dysplay="none";         
+        modal.style.display="none";        
     }
 }
-
-
