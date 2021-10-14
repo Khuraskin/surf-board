@@ -1,14 +1,17 @@
- const modal = document.querySelector(".active"),
- clickModal = document.querySelector(".hamburger"),
- closeModak = document.querySelector(".active__close");
- 
+ const clickModal = document.querySelector(".hamburger"),
+ modal = document.querySelector(".active"),
+ closeModal = document.querySelector(".active__close")
+ console.log(modal);
+
  clickModal.onclick = function() {
-    modal.style.dysplay="block";
-};
+    modal.style.display="block";
+    console.log(clickModal);
+}
 
-
-window.onclick = function (event) {
-    if(event.target == modal) {
+window.onclick = function (e) {
+    if(e.target == modal) {
        modal.style.dysplay="none";         
     }
 }
+
+
