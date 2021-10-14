@@ -1,8 +1,7 @@
  const modal = document.querySelector(".active"),
  clickModal = document.querySelector(".hamburger"),
- closeModak = document.querySelector(".active__close")
- console.log(modal);
-
+ closeModak = document.querySelector(".active__close");
+ 
  clickModal.onclick = function() {
     modal.style.dysplay="block";
 };
