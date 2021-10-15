@@ -1630,16 +1630,23 @@ p {
   height: 100vh;
   width: 100%;
   background-color: #444;
-  width: 48rem;
+  background-size: contain;
   border-radius: 5px;
   color: #fff;
   position: absolute;
   display: none;
-  top: 100%;
+  top: 5.5rem;
 }
 .active__list {
-  display: inline-block;
-  margin: 2.6rem 2.6rem 4.5rem 44rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  padding-right: 2.6rem;
+  padding-top: 2.6rem;
 }
 .active__pic {
   width: 1.25rem;
