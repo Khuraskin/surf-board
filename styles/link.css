@@ -1633,9 +1633,9 @@ p {
   background-size: contain;
   border-radius: 5px;
   color: #fff;
-  position: absolute;
+  position: fixed;
   display: none;
-  top: 5.5rem;
+  top: 0;
 }
 .active__list {
   display: -webkit-box;
