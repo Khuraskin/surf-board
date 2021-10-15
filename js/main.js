@@ -1,6 +1,6 @@
  const clickModal = document.querySelector(".hamburger"),
  modal = document.querySelector(".active"),
- closeModal = document.querySelector(".active__close")
+ closeModal = document.querySelector(".active__close"),
  console.log(modal);
 
  clickModal.onclick = function() {
