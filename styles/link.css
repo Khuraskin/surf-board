@@ -930,12 +930,15 @@ p {
     display: none;
   }
 }
-.options__svg {
+.options__img {
   fill: #ffffff;
   width: 2.3rem;
   height: 2.3rem;
   cursor: pointer;
   position: relative;
+}
+.options__svg:hover .emerge {
+  display: block;
 }
 .options__choice {
   font-size: 0.8rem;
