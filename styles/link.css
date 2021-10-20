@@ -992,6 +992,9 @@ p {
   margin-right: 1rem;
 }
 .options__parameter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 7.9rem;
   font-size: 0.9rem;
   font-weight: 500;
