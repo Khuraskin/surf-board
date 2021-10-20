@@ -972,7 +972,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #0000000f;
+  background-color: #ECECEC;
 }
 .options__menu {
   display: -webkit-box;
