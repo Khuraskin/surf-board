@@ -845,6 +845,11 @@ p {
     text-align: center;
   }
 }
+.options__fon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .options__fon--all {
   background: url("../img/offers/vector_surf.png") no-repeat center;
 }
