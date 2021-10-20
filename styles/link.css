@@ -923,6 +923,8 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
+  position: relative;
   margin-bottom: 3.2rem;
 }
 @media screen and (max-width: 768px) {
@@ -937,7 +939,7 @@ p {
   cursor: pointer;
   position: relative;
 }
-.options__img:hover .options__emerge {
+.options__item:hover .options__emerge {
   display: block;
 }
 .options__choice {
@@ -951,6 +953,8 @@ p {
   height: 18rem;
   display: none;
   position: absolute;
+  left: 100%;
+  top: 0;
 }
 .options__main {
   display: -webkit-box;
