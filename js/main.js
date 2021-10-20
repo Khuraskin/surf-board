@@ -1,7 +1,9 @@
 const clickModal = document.querySelector(".hamburger"),
 modal = document.querySelector(".active"),
 closeModal = document.querySelector(".active__close"),
-heroClose = document.querySelector(".wrapper");
+heroClose = document.querySelector(".wrapper"),
+closeLink = document.querySelector(".active__link");
+
 
 
 clickModal.onclick = function() {
@@ -12,5 +14,9 @@ clickModal.onclick = function() {
 closeModal.onclick = function () {
    modal.style.display="none";
 
+}
+
+closeLink.onclick = function () {
+   modal.style.display="none";
 }
 
