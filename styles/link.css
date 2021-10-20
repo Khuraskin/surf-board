@@ -937,7 +937,7 @@ p {
   cursor: pointer;
   position: relative;
 }
-.options__:hover .options__emerge {
+.options__img:hover .options__emerge {
   display: block;
 }
 .options__choice {
