@@ -14,15 +14,3 @@ closeModal.onclick = function () {
 
 }
 
-const clickMenu = document.querySelector(".options__svg"),
-openMenu = document.querySelector(".emerge");
-
-
-clickMenu.onmouseover = function () {
-    openMenu.style.display="block";
-}
-
-openMenu.onmouseout = function () {
-    openMenu.style.display="none";
-}
-
