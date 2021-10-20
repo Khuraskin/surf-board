@@ -930,6 +930,7 @@ p {
           align-items: center;
   text-align: center;
   position: relative;
+  border-radius: 0.25rem;
   margin-bottom: 3.2rem;
 }
 @media screen and (max-width: 768px) {
@@ -972,6 +973,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 0.25rem;
   background-color: #ECECEC;
 }
 .options__menu {
