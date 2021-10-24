@@ -1732,7 +1732,7 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.active__link {
+.active__link, .active__surf, .active__command, .active__carte, .active__reviews, .active__work, .active__contacts {
   text-decoration: none;
   color: #fff;
   font-size: 2.25rem;
