@@ -15,6 +15,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/link.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -432,7 +433,7 @@
                 <h2 class="comment__recall">отзывы</h2>
             </div>
             <div class="container container__comment--gray">
-                <div class="comment__main comment__main--active">
+                <div class="comment__main comment__main--active" data-connect="one">
                     <div class="comment__img">
                         <img class="comment__pic" src="./img/review/Olga.png" alt="photo_commentator">
                     </div>
@@ -451,7 +452,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="comment__main">
+                <div class="comment__main" data-connect="two">
                     <div class="comment__img">
                         <img class="comment__pic" src="./img/review/Mark.png" alt="photo_commentator">
                     </div>
@@ -471,7 +472,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="comment__main">
+                <div class="comment__main" data-connect="three">
                     <div class="comment__img">
                         <img class="comment__pic" src="./img/review/Vasilii.png" alt="photo_commentator">
                     </div>
@@ -496,18 +497,18 @@
                 <div class="container">
                     <div class="clients__item">
                         <ul class="clients__list">
-                            <li class="clients__info">
-                                <a class="clients__link" href="#">
+                            <li class="clients__info clients__info--active">
+                                <a class="clients__link" data-open="one" href="#">
                                     <img class="clients__pic" src="./img/clients/Olga.png" alt="rectangle__jpg">
                                 </a>
                             </li>
                             <li class="clients__info">
-                                <a class="clients__link" href="#">
+                                <a class="clients__link" data-open="two" href="#">
                                     <img class="clients__pic" src="./img/clients/Mark.png" alt="rectangle__jpg">
                                 </a>
                             </li>
                             <li class="clients__info">
-                                <a class="clients__link" href="#">
+                                <a class="clients__link" data-open="three" href="#">
                                     <img class="clients__pic" src="./img/clients/Vasilii.png" alt="">
                                 </a>
                             </li>
