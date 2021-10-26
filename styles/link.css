@@ -1133,6 +1133,10 @@ p {
   width: 0.5rem;
   height: 0.5rem;
 }
+.command__description {
+  height: 0;
+  overflow: hidden;
+}
 .command__profession {
   font-size: 1.1rem;
   font-weight: 400;
