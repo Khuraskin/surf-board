@@ -1197,6 +1197,14 @@ p {
   display: -ms-flexbox;
   display: flex;
   padding: 2.6rem;
+  display: none;
+}
+.comment__main--active {
+  display: inline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2.6rem;
 }
 @media screen and (max-width: 768px) {
   .comment__main {
