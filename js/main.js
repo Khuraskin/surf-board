@@ -30,7 +30,6 @@ const findBlockByAlias = alias => {
 $(".clients__link").click((e) => {
   e.preventDefault();
 
-
   const $this = $(e.currentTarget);
   const target = $this.attr("data-open");
   const mainToShow = findBlockByAlias(target);
