@@ -1096,16 +1096,14 @@ p {
           justify-content: space-between;
   text-align: center;
 }
+.command__item--mobile {
+  display: none;
+}
 .command__hero {
   padding-right: 1.25rem;
 }
 .command__hero:last-child {
   padding: 0;
-}
-@media screen and (max-width: 768px) {
-  .command__photo--non {
-    display: none;
-  }
 }
 .command__logo {
   width: 13.8rem;
