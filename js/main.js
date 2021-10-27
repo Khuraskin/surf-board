@@ -41,10 +41,12 @@ $(".clients__link").click((e) => {
 
 const openItem = item => {
   const container = item.closest(".command__hero");
+  const arrow = container.find(".command__arrow");
   const contentBlock = container.find(".command__description");
   const textBlock = contentBlock.find(".command__height");
   const regHeight = textBlock.height();
 
+  arrow.addClass("command__arrow_rotated");
   container.addClass("discharge");
   contentBlock.height(regHeight);
 }
@@ -52,6 +54,7 @@ const openItem = item => {
 const closeAll = container => {
 const items = container.find(".command__description");
 const itemContainer = container.find(".command__hero");
+
 
 itemContainer.removeClass("discharge");
 items.height(0);
@@ -62,7 +65,8 @@ $(".command__name").click(e => {
   const $this= $(e.currentTarget);
   const container = $this.closest(".command__item");
   const elementBlock = $this.closest(".command__hero");
-
+  
+  
   if (elementBlock.hasClass("discharge")) {
     closeAll(container);
   }
@@ -70,6 +74,7 @@ $(".command__name").click(e => {
    else {
     closeAll(container);
     openItem($this);
-  } 
+  }   
   
 })
+
