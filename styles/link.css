@@ -1152,6 +1152,14 @@ p {
 .command__arrow {
   width: 0.5rem;
   height: 0.5rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.command__arrow_rotated {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .command__description {
   height: 0;
