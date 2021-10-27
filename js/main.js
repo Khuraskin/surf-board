@@ -37,3 +37,39 @@ $(".clients__link").click((e) => {
   mainToShow.addClass("comment__main--active").siblings().removeClass("comment__main--active");
   curItem.addClass("clients__info--active").siblings().removeClass("clients__info--active");
 });
+
+
+const openItem = item => {
+  const container = item.closest(".command__hero");
+  const contentBlock = container.find(".command__description");
+  const textBlock = contentBlock.find(".command__height");
+  const regHeight = textBlock.height();
+
+  container.addClass("discharge");
+  contentBlock.height(regHeight);
+}
+
+const closeAll = container => {
+const items = container.find(".command__description");
+const itemContainer = container.find(".command__hero");
+
+itemContainer.removeClass("discharge");
+items.height(0);
+}
+
+
+$(".command__name").click(e => {  
+  const $this= $(e.currentTarget);
+  const container = $this.closest(".command__item");
+  const elementBlock = $this.closest(".command__hero");
+
+  if (elementBlock.hasClass("discharge")) {
+    closeAll(container);
+  }
+
+   else {
+    closeAll(container);
+    openItem($this);
+  } 
+  
+})
