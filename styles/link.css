@@ -65,6 +65,10 @@ p {
   margin-top: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .head {
   padding: 1.5rem 0 4.3rem 0;
 }
@@ -761,80 +765,20 @@ p {
   background: #f8faf9;
   min-height: 100vh;
 }
-.options__arrow--left {
-  width: 0.8rem;
-  height: 1.7rem;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  cursor: pointer;
-}
-@media screen and (max-width: 768px) {
-  .options__arrow--left {
-    width: 0.8rem;
-    height: 1.7rem;
-    position: absolute;
-    top: 35%;
-    left: 3.6rem;
-    cursor: pointer;
-  }
-}
-@media screen and (max-width: 480px) {
-  .options__arrow--left {
-    width: 0.8rem;
-    height: 1.7rem;
-    position: absolute;
-    top: 35%;
-    left: 0;
-    cursor: pointer;
-  }
-}
-.options__arrow--right {
-  width: 0.8rem;
-  height: 1.7rem;
-  position: absolute;
-  top: 50%;
-  right: 5%;
-  cursor: pointer;
-}
-@media screen and (max-width: 768px) {
-  .options__arrow--right {
-    width: 0.8rem;
-    height: 1.7rem;
-    position: absolute;
-    top: 35%;
-    right: 3.6rem;
-    cursor: pointer;
-  }
-}
-@media screen and (max-width: 480px) {
-  .options__arrow--right {
-    width: 0.8rem;
-    height: 1.7rem;
-    position: absolute;
-    top: 35%;
-    right: 0;
-    cursor: pointer;
-  }
-}
-.options__arrow {
-  stroke: #000000;
-  stroke-width: 2;
-  stroke-linecap: round;
-  fill: none;
-}
-.options__hero {
+.options__slide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  position: relative;
+  padding-top: 4.1rem;
+}
+.options__slide--active {
+  display: none;
 }
 @media screen and (max-width: 768px) {
-  .options__hero {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .options__slide {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -849,6 +793,10 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 25rem;
 }
 .options__fon--all {
   background: url("../img/offers/vector_surf.png") no-repeat center;
@@ -1025,13 +973,6 @@ p {
   margin-bottom: 1.5rem;
   color: #666666;
 }
-.options__hero {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  padding-top: 4.1rem;
-}
 .options__list {
   padding-right: 3.2rem;
 }
@@ -1070,6 +1011,68 @@ p {
 }
 .options__buy:last-child {
   padding-right: 0;
+}
+.options__arrow--left {
+  width: 0.8rem;
+  height: 1.7rem;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .options__arrow--left {
+    width: 0.8rem;
+    height: 1.7rem;
+    position: absolute;
+    top: 35%;
+    left: 3.6rem;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 480px) {
+  .options__arrow--left {
+    width: 0.8rem;
+    height: 1.7rem;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    cursor: pointer;
+  }
+}
+.options__arrow--right {
+  width: 0.8rem;
+  height: 1.7rem;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .options__arrow--right {
+    width: 0.8rem;
+    height: 1.7rem;
+    position: absolute;
+    top: 35%;
+    right: 3.6rem;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 480px) {
+  .options__arrow--right {
+    width: 0.8rem;
+    height: 1.7rem;
+    position: absolute;
+    top: 35%;
+    right: 0;
+    cursor: pointer;
+  }
+}
+.options__arrow {
+  stroke: #000000;
+  stroke-width: 2;
+  stroke-linecap: round;
+  fill: none;
 }
 
 /*Command*/
@@ -1194,21 +1197,33 @@ p {
   color: #ffffff;
   text-transform: uppercase;
 }
-.choice__select {
+.choice__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
-  -webkit-writing-mode: tb-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: tb-rl;
-  width: 29rem;
-  height: 3.6rem;
+}
+.choice__link {
+  width: 6.25rem;
+  text-transform: uppercase;
+  background-color: transparent;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+.choice__name {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ffffff;
+}
+.choice__content {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  overflow: hidden;
+  width: 0;
+  background-color: #333537;
+  -webkit-transition: width 0.7s;
+  transition: width 0.7s;
 }
 
 .comment {
