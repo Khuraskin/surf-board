@@ -1438,6 +1438,9 @@ a {
   color: #292929;
   text-transform: uppercase;
 }
+.work__player {
+  width: 100%;
+}
 .work__video {
   width: 100%;
   height: auto;
