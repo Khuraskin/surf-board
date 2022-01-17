@@ -5,8 +5,7 @@ const clickModal = document.querySelector(".hamburger"),
   closeLink = document.querySelectorAll(".active__link");
 
 clickModal.onclick = function () {
-  modal.style.display = "block";
-  console.log(clickModal);
+  modal.style.display = "block";  
 };
 
 closeModal.onclick = function () {
@@ -19,7 +18,7 @@ closeLink.forEach(function (element) {
 
 function closeMenu() {
   modal.style.display = "none";
-}
+};
 
 const findBlockByAlias = alias => {
   return $(".comment__main").filter((ndx, main) =>{
@@ -78,3 +77,45 @@ $(".command__name").click(e => {
   
 })
 
+
+//option row (carousel)
+
+const prev = document.getElementById ("options__prev"),
+next = document.getElementById ("options__next"),
+slides = document.querySelectorAll (".options__slide");
+
+let index = 0;
+
+ const activeSlide = n => {   
+     for(slide of slides) {
+         slide.classList.remove ("options__slide--active");
+    }
+    slides[n].classList.add ("options__slide--active");
+ }
+
+const prepareCurrentSlide = ind => {
+    activeSlide(ind);   
+}
+
+ const nextSlide = () => {
+     if(index == slides.length - 1) {
+         index = 0; 
+         prepareCurrentSlide(index);       
+     }else {
+        index ++;
+        prepareCurrentSlide(index);           
+    }
+ }
+
+ const prevSlide = () => {
+    if(index == 0) {
+        index = slides.length - 1
+        prepareCurrentSlide(index);   
+    }else {
+       index --;
+       prepareCurrentSlide(index);   
+   }
+}
+
+ next.addEventListener("click", nextSlide);
+ prev.addEventListener("click", prevSlide);
