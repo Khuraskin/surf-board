@@ -1427,6 +1427,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  min-height: 100vh;
 }
 .work__title {
   padding-top: 3.8rem;
@@ -1444,6 +1445,11 @@ a {
 .work__video {
   width: 100%;
   height: auto;
+  max-height: 100%;
+}
+.work__youtube {
+  width: 100%;
+  height: 30rem;
   max-height: 100%;
 }
 
