@@ -1428,7 +1428,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   min-height: 100vh;
-  margin-bottom: 1rem;
+  margin-bottom: 0.2rem;
 }
 .work__title {
   padding-top: 3.8rem;
