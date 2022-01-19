@@ -1428,6 +1428,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   min-height: 100vh;
+  margin-bottom: 1rem;
 }
 .work__title {
   padding-top: 3.8rem;
@@ -1449,7 +1450,7 @@ a {
 }
 .work__iframe {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-top: 56.25%;
   height: 0;
   overflow: hidden;
 }
