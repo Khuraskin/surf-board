@@ -948,6 +948,7 @@ a {
   font-weight: 500;
   line-height: 1.2;
   color: #000;
+  cursor: pointer;
 }
 .options__showing {
   width: 3.3rem;
@@ -1415,6 +1416,9 @@ a {
   height: 100%;
 }
 
+.work {
+  background-color: #f8faf9;
+}
 .work__main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1468,6 +1472,7 @@ a {
   background-size: cover;
   background-position: 50% 50%;
   min-height: 100vh;
+  margin-bottom: 0.2rem;
 }
 .form__title {
   padding-top: 6.8rem;
@@ -1792,19 +1797,9 @@ a {
   background-repeat: repeat-x;
 }
 
-.map {
+.map__container {
   min-height: 100vh;
-  margin-bottom: 1.75rem;
-  position: relative;
-}
-.map__pic {
-  fill: #FEDB3F;
-}
-.map__svg {
-  background: url("../img/footer/map.png") no-repeat;
-  max-width: 100%;
-  background-size: cover;
-  height: 100VH;
+  margin-bottom: 5rem;
 }
 
 .sidebar {
