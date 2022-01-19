@@ -1427,7 +1427,6 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 100vh;
   margin-bottom: 0.2rem;
 }
 .work__title {
